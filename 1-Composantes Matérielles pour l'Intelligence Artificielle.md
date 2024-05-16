@@ -40,6 +40,9 @@ Les CPU sont les cerveaux de l'ordinateur, exécutant des instructions et des ca
 
 Les GPU sont essentiels pour l'accélération de l'entraînement des modèles d'IA grâce à leur capacité à effectuer des calculs parallèles massifs. Ils sont également utilisés pour l'inférence rapide.
 
+![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/0a32ee12-7eba-48b7-93d0-d0f5a5db7e13)
+
+
 ### Unités de Traitement Tensoriel (TPU)
 
 Les TPU sont des processeurs conçus spécifiquement pour l'accélération des tâches d'IA, offrant une efficacité énergétique et des performances supérieures dans certains cas par rapport aux GPU.
