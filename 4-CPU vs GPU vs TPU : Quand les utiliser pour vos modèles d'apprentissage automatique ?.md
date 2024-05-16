@@ -33,6 +33,7 @@ La différence entre le CPU, le GPU et le TPU est que le CPU gère toute la logi
 
 ## 5. Quand utiliser CPU, GPU ou TPU pour exécuter vos modèles d'apprentissage automatique ?
 
+## 5.1. Nombre de cœurs:
 - CPU : Plusieurs cœurs, Faible latence, Traitement sériel, Opérations simultanées limitées, Grande capacité de mémoire.
 - GPU : Des milliers de Cœurs, Haut débit de données, Calcul parallèle massif, Multitâche limité, Faible mémoire.
 - TPU : Charge de travail basée sur les matrices, Haute latence, Haut débit de données, Adapté aux grandes tailles de lots, Modèles de réseaux neuronaux complexes.
