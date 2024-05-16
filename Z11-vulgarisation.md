@@ -46,4 +46,3 @@ Après avoir entraîné votre chien et confirmé qu'il peut suivre les commandes
 ## Conclusion
 
 La distinction entre les données d'entraînement, de validation, et de test est fondamentale pour développer des modèles de machine learning efficaces et fiables. En utilisant ces trois types de données de manière appropriée, vous pouvez maximiser la capacité de votre modèle à apprendre de manière efficace et à généraliser à de nouvelles situations sans simplement mémoriser les données qu'il a vues.
-```
