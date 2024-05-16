@@ -1,4 +1,4 @@
-# Guide Simplifié : CPU, GPU et TPU pour les Débutants
+# Guide Simplifié : CPU, GPU et TPU
 
 ## Introduction
 
