@@ -1,4 +1,4 @@
-# Pratique 2
+# pratique 2
 1. **Installation de TensorFlow** :
 ```python
 pip install tensorflow
