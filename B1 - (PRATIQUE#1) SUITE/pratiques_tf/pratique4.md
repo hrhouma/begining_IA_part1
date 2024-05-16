@@ -1,3 +1,98 @@
+# Évaluation formative (sans correction)
+
+# Partie 1
+# Exercice 1: Calculer la somme de deux matrices.
+
+Question:
+Écrivez une fonction TensorFlow pour calculer la somme de deux matrices.
+
+# Exercice 2: Concaténation de deux tenseurs.
+
+Question:
+Concaténez deux tenseurs le long de l'axe des colonnes.
+
+# Exercice 3: Produit scalaire de deux vecteurs.
+
+Question:
+Calculez le produit scalaire de deux vecteurs.
+
+# Exercice 4: Transposition d'une matrice.
+
+Question:
+Transposez une matrice donnée.
+
+# Exercice 5: Calcul de la norme L2 d'un vecteur.
+
+Question:
+Calculez la norme L2 d'un vecteur donné.
+
+# Exercice 6: Multiplication de deux matrices.
+
+Question:
+Calculez le produit de deux matrices.
+
+# Exercice 7: Création d'une séquence de nombres.
+
+Question:
+Créez une séquence de nombres de 1 à 10.
+
+# Exercice 8: Exécution conditionnelle.
+
+Question:
+Implémentez une opération conditionnelle qui retourne "Pair" si un nombre est pair et "Impair" sinon.
+
+# Exercice 9: Répétition d'un tenseur.
+
+Question:
+Répétez un tenseur donné 3 fois le long de l'axe des colonnes.
+
+# Exercice 10: Calcul de la moyenne.
+
+Question:
+Calculez la moyenne d'un tableau de nombres.
+
+# Exercice 11: Addition de deux tenseurs.
+
+Question:
+Calculez la somme de deux tenseurs.
+
+# Exercice 12: Multiplication de deux tenseurs.
+
+Question:
+Calculez le produit de deux tenseurs.
+
+# Exercice 13: Soustraction de deux tenseurs.
+
+Question:
+Calculez la différence de deux tenseurs.
+
+# Exercice 14: Addition des éléments d'un tenseur.
+
+Question:
+Calculez la somme de tous les éléments d'un tenseur.
+
+# Exercice 15: Produit scalaire de deux vecteurs.
+
+Question:
+Calculez le produit scalaire de deux vecteurs.
+
+# Exercice 16: Conversion de types de données.
+
+Question:
+Convertissez un tenseur d'un type de données à un autre.
+
+# Exercice 17: Création de tenseurs avec des types de données spécifiques.
+
+Question:
+Créez un tenseur avec des types de données spécifiques (float32, int32, bool).
+
+# Exercice 18: Différence entre "type" et "dtype".
+
+Question:
+Expliquez la différence entre "type" et "dtype" dans TensorFlow.
+
+
+# Partie 2
 # Exercice 1: Calculer la somme de deux matrices.
 
 Question:
@@ -120,4 +215,3 @@ $$
 \end{bmatrix}
 $$
 
-Ces énoncés fournissent des instructions plus spécifiques sur ce que chaque exercice attend comme entrée et ce qui devrait être retourné en sortie, sous forme d'équations LaTeX.
