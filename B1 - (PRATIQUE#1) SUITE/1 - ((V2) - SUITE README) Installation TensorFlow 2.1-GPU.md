@@ -1,4 +1,4 @@
-# Installation des prérequis pour le support GPU dans TensorFlow 2.1
+# (v2) Installation des prérequis pour le support GPU dans TensorFlow 2.1
 
 Pour utiliser TensorFlow 2.1 avec le support GPU, suivez les étapes ci-dessous pour configurer votre environnement.
 
