@@ -139,10 +139,5 @@ https://medium.com/setup-pc-for-tensorflow/setup-pc-for-tensorflow-17a8ea6c629
 https://www.youtube.com/watch?v=QpdjS9MrQNI&ab_channel=TheCodeCity
 
 
-ORG=ORG
-URL=http://influxdb:8086
-TOKEN=oDlYlc5NdrdPiQJA8TGrHcLQIGxwt96hWyQoxBsFA6iyj8_m5dFDUOXxYV-8W54x3gP8bUZDPEZBfu6Vfnbzgw==
-BUCKET=system_state
-
 
 
