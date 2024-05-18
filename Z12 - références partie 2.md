@@ -1,13 +1,11 @@
-https://stackoverflow.com/questions/37890898/how-to-set-env-variable-in-jupyter-notebook
-https://github.com/hrhouma/begining_IA_part1/blob/main/Z10%20-%20R%C3%A9f%C3%A9rences%20partie%201.md
-https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/ci_build/Dockerfile.gpu
-https://saturncloud.io/blog/how-to-install-tensorflow-on-the-gpu-with-docker/
-https://www.office.com/login?login_hint=hrehouma@cmaisonneuve.qc.ca&ru=%2F%3Fauth%3D2%26from%3DOfficeHomeRefreshFailed
-http://www.theappliedarchitect.com/tensorflow-docker-mnist-classifier-the-user-interface/
-https://appliedarchitect.medium.com/tensorflow-docker-mnist-classifier-introduction-c0897dd57e46
-https://francescopochetti.com/deploying-a-fashion-mnist-web-app-with-flask-and-docker/
-https://github.com/FraPochetti/KagglePlaygrounds/blob/master/fashion_docker/mnist_convnet.ipynb
-https://www.youtube.com/watch?v=1LbdHnOZch8&ab_channel=NeuralNine
-https://github.com/bhupendrak9917/My-AI-Projects/tree/main/MNIST_Streamlit
-https://www.google.com/search?q=mnist+docker+streamlit&oq=mnist+docker+streamlit&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRigATIGCAIQIRgV0gEINzA4OWowajeoAgCwAgA&sourceid=chrome&ie=UTF-8
-https://github.com/zademn/mnist-mlops-learning
+- https://stackoverflow.com/questions/37890898/how-to-set-env-variable-in-jupyter-notebook
+- https://github.com/hrhouma/begining_IA_part1/blob/main/Z10%20-%20R%C3%A9f%C3%A9rences%20partie%201.md
+- https://github.com/tensorflow/tensorflow/blob/master/tensorflow/tools/ci_build/Dockerfile.gpu
+- https://saturncloud.io/blog/how-to-install-tensorflow-on-the-gpu-with-docker/
+- http://www.theappliedarchitect.com/tensorflow-docker-mnist-classifier-the-user-interface/
+- https://appliedarchitect.medium.com/tensorflow-docker-mnist-classifier-introduction-c0897dd57e46
+- https://francescopochetti.com/deploying-a-fashion-mnist-web-app-with-flask-and-docker/
+- https://github.com/FraPochetti/KagglePlaygrounds/blob/master/fashion_docker/mnist_convnet.ipynb
+- https://www.youtube.com/watch?v=1LbdHnOZch8&ab_channel=NeuralNine
+- https://github.com/bhupendrak9917/My-AI-Projects/tree/main/MNIST_Streamlit
+- https://github.com/zademn/mnist-mlops-learning
