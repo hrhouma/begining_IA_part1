@@ -1,0 +1,3 @@
+- https://github.com/bhupendrak9917
+- https://github.com/bhupendrak9917/My-AI-Projects/tree/main/MNIST_Streamlit
+- https://www.youtube.com/watch?v=1LbdHnOZch8&ab_channel=BhupendraKumar
