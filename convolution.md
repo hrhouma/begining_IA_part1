@@ -1,12 +1,10 @@
-La convolution dans un réseau de neurones convolutifs (CNN) est une opération essentielle qui permet d'extraire des caractéristiques des images. Voici une explication vulgarisée de la convolution dans le contexte des CNN, avec une section détaillée incluant des équations au format Markdown.
-
----
-
 # Comprendre la Convolution dans un Réseau de Neurones Convolutifs (CNN)
 
 ## Introduction
 
-Les réseaux de neurones convolutifs (CNN) sont largement utilisés dans le traitement des images et la vision par ordinateur. L'opération de convolution est au cœur de ces réseaux et permet d'extraire automatiquement des caractéristiques pertinentes des images.
+- Les réseaux de neurones convolutifs (CNN) sont largement utilisés dans le traitement des images et la vision par ordinateur.
+- L'opération de convolution est au cœur de ces réseaux et permet d'extraire automatiquement des caractéristiques pertinentes des images.
+- La convolution dans un réseau de neurones convolutifs (CNN) est une opération essentielle qui permet d'extraire des caractéristiques des images.
 
 ## Qu'est-ce que la Convolution ?
 
@@ -14,7 +12,8 @@ La convolution est une opération mathématique qui combine deux ensembles de do
 
 ### Exemple Simple
 
-Imaginez que vous avez une image en niveaux de gris de 5x5 pixels et un filtre de 3x3 pixels. La convolution de cette image avec ce filtre consiste à glisser le filtre sur l'image et à calculer un produit scalaire à chaque position.
+- Imaginez que vous avez une image en niveaux de gris de 5x5 pixels et un filtre de 3x3 pixels. 
+- La convolution de cette image avec ce filtre consiste à glisser le filtre sur l'image et à calculer un produit scalaire à chaque position.
 
 ### Opération de Convolution
 
@@ -88,11 +87,7 @@ $$
 
 L'opération de convolution dans les CNN permet d'extraire des caractéristiques importantes des images telles que les bords, les textures et d'autres motifs. Ces caractéristiques extraites sont ensuite utilisées par les couches suivantes du réseau pour effectuer des tâches de classification ou de détection d'objets.
 
----
 
-Vous pouvez ajouter cette explication et les équations dans un fichier README en utilisant la syntaxe Markdown. Voici un exemple de la section d'équations au format Markdown :
-
-```markdown
 ## Formule de Convolution
 
 L'opération de convolution pour une image 2D \( I \) et un filtre \( K \) est définie comme :
@@ -108,4 +103,3 @@ où:
 - \( M \) et \( N \) sont les dimensions du filtre.
 ```
 
-Cela fournira une base claire et compréhensible pour expliquer la convolution dans un réseau CNN.
