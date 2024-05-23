@@ -62,9 +62,7 @@ En appliquant ce filtre sur l'image avec un stride de 1 et sans padding, nous ca
 
 En répétant cette opération, nous obtenons une nouvelle image plus petite, une carte de caractéristiques.
 
-# Partie 2
-
-### Illustration des Concepts de CNNs avec un Exemple Complet
+# Partie 2 - Illustration des Concepts de CNNs avec un Exemple Complet
 
 Pour illustrer les concepts de Flatten, Dense, etc., nous allons construire un exemple simple d'un CNN pour la reconnaissance d'images.
 
@@ -192,9 +190,13 @@ model.summary()
 - Les CNNs utilisent des couches de convolution, de pooling et d'autres techniques comme le dropout pour extraire et combiner des caractéristiques importantes des images. Ces modèles sont puissants pour la reconnaissance d'images et d'autres tâches de vision par ordinateur grâce à leur capacité à apprendre automatiquement des caractéristiques à partir des données.
 - Les CNNs utilisent des couches de convolution pour extraire des caractéristiques des images, des couches de pooling pour réduire la taille des données, des couches de flatten pour aplatir les données, et des couches denses pour la classification. Ce modèle est particulièrement efficace pour la reconnaissance d'images, et il est essentiel de comprendre chaque étape pour optimiser l'architecture et obtenir les meilleurs résultats.
 
-# Références très importantes
+# Références très importantes (Partie 1)
 
 - https://medium.com/@RaghavPrabhu/understanding-of-convolutional-neural-network-cnn-deep-learning-99760835f148
 - https://openclassrooms.com/fr/courses/4470531-classez-et-segmentez-des-donnees-visuelles/5082166-quest-ce-quun-reseau-de-neurones-convolutif-ou-cnn
 - https://medium.com/@deepeshdeepakdd2/cnn-visualization-techniques-feature-maps-gradient-ascent-aec4f4aaf5bd
 - https://machinelearningmastery.com/how-to-develop-a-convolutional-neural-network-from-scratch-for-mnist-handwritten-digit-classification/
+
+# Références très importantes (Partie 2)
+
+- Allez au dossier PPT ci-joint
