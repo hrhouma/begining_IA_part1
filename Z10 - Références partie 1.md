@@ -4,9 +4,9 @@
 - https://stackoverflow.com/questions/59823283/could-not-load-dynamic-library-cudart64-101-dll-on-tensorflow-cpu-only-install
 
 # 2 - Références #2
-https://medium.com/@teavanist/install-tensorflow-cpu-on-windows-10-4acbec6a71b7
-https://medium.com/setup-pc-for-tensorflow/setup-pc-for-tensorflow-17a8ea6c629
-https://www.youtube.com/watch?v=QpdjS9MrQNI&ab_channel=TheCodeCity
+- https://medium.com/@teavanist/install-tensorflow-cpu-on-windows-10-4acbec6a71b7
+- https://medium.com/setup-pc-for-tensorflow/setup-pc-for-tensorflow-17a8ea6c629
+- https://www.youtube.com/watch?v=QpdjS9MrQNI&ab_channel=TheCodeCity
 
  
  # 3 - Références YOUTUBE 
