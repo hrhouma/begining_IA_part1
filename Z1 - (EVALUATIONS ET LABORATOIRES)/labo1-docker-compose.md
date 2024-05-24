@@ -1,4 +1,4 @@
-### Énoncé de Lab : Docker Compose avec Dépendance entre Conteneurs
+# Énoncé de Lab : Docker Compose avec Dépendance entre Conteneurs
 
 #### Objectif :
 L'objectif de ce lab est de vous familiariser avec Docker Compose en vous demandant de configurer un environnement de conteneurs où un service dépend d'un autre pour démarrer correctement. Vous allez configurer deux conteneurs avec une relation de dépendance. Par exemple, une application qui dépend d'une base de données, ou deux services qui doivent interagir, l'un dépendant de l'autre.
@@ -28,7 +28,40 @@ L'objectif de ce lab est de vous familiariser avec Docker Compose en vous demand
 5. **Contenu du fichier `docker-compose.yaml` :**
    - Définissez les services avec les paramètres nécessaires, y compris les images Docker appropriées, les variables d'environnement pour la configuration, et les volumes pour la persistance des données.
 
-#### Exemple de Contenu pour Prometheus et Grafana :
+# Exemple de Contenu pour Wordpress et MySQL :
+```yaml
+version: '3.3'
+
+services:
+   db:
+     image: mysql:5.7
+     volumes:
+       - db_data:/var/lib/mysql
+     restart: always
+     environment:
+       MYSQL_ROOT_PASSWORD: somewordpress
+       MYSQL_DATABASE: wordpress
+       MYSQL_USER: wordpress
+       MYSQL_PASSWORD: wordpress
+
+   wordpress:
+     depends_on:
+       - db
+     image: wordpress:latest
+     ports:
+       - "8000:80"
+     restart: always
+     environment:
+       WORDPRESS_DB_HOST: db:3306
+       WORDPRESS_DB_USER: wordpress
+       WORDPRESS_DB_PASSWORD: wordpress
+       WORDPRESS_DB_NAME: wordpress
+volumes:
+    db_data: {}
+
+```
+
+# Exemple de Contenu pour Prometheus et Grafana :
 
 ```yaml
 version: '3.8'
@@ -75,10 +108,6 @@ volumes:
 - **Fonctionnalité :** Vérifiez que l'application fonctionne correctement et peut se connecter à son service dépendant.
 
 #### Date limite : 
-Soumettez vos fichiers avant minuit, le [date limite].
+Soumettez vos fichiers avant minuit, le mercredi 29 mai 2024.
 
 Bonne chance et n'hésitez pas à poser des questions si vous avez besoin d'aide !
-
----
-
-Ce lab vous aidera à mieux comprendre comment configurer des environnements de conteneurs dépendants et à renforcer vos compétences en utilisant Docker Compose.
