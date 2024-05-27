@@ -1,5 +1,7 @@
 
-==> IMPORTANT 0 - https://www.lavivienpost.com/install-tensorflow-gpu-on-windows-complete-guide/ (pour les étapes , pas pour les versions)
+==> IMPORTANT 0 : 
+- https://www.lavivienpost.com/install-tensorflow-gpu-on-windows-complete-guide/ (pour les étapes , pas pour les versions)
+- https://www.classcentral.com/classroom/youtube-setting-up-cuda-cudnn-keras-and-tensorflow-on-windows-11-for-gpu-deep-learning-133605
 ==> IMPORTANT 1 - Référence : https://stackoverflow.com/questions/59823283/could-not-load-dynamic-library-cudart64-101-dll-on-tensorflow-cpu-only-install
 - https://stackoverflow.com/questions/50622525/which-tensorflow-and-cuda-version-combinations-are-compatible
 ==> IMPORTANT 2 - Pour vérifier les compatbilités des outils que nous allons installer, il est obligatoire de consulter ces deux liens : 
