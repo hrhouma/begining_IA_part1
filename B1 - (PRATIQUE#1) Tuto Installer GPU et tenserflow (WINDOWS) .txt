@@ -1,5 +1,6 @@
 
 ==> IMPORTANT 1 - Référence : https://stackoverflow.com/questions/59823283/could-not-load-dynamic-library-cudart64-101-dll-on-tensorflow-cpu-only-install
+- https://stackoverflow.com/questions/50622525/which-tensorflow-and-cuda-version-combinations-are-compatible
 ==> IMPORTANT 2 - Pour vérifier les compatbilités des outils que nous allons installer, il est obligatoire de consulter ces deux liens : 
 https://medium.com/@omkardalvi2001/gpu-for-machine-learning-cuda-cudnn-and-tensorflow-cb5f3ee4b5ac
 https://stackoverflow.com/questions/50622525/which-tensorflow-and-cuda-version-combinations-are-compatible
