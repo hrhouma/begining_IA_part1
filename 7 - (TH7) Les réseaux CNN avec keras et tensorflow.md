@@ -200,3 +200,6 @@ model.summary()
 # Références très importantes (Partie 2)
 
 - Allez au dossier PPT ci-joint
+- https://drive.google.com/drive/folders/1nu3tZpzmdmJ5aqoHj93EaL3IMLaJCDZa?usp=sharing
+- https://drive.google.com/drive/folders/1pzsSUGMK4QaWKslzAFug-fpcvmcYfu_-?usp=sharing
+- https://drive.google.com/drive/folders/1KFSB4DweUvO1R2uvmRR6yWbxFTplgc4Z?usp=sharing
