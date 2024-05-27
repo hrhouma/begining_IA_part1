@@ -1,15 +1,10 @@
-# TO DO
-
-
-
-# Examen_1_Student.ipynb
+# (PRATIQUE#5) PROJET #2 Original MNIST
 
 Généré automatiquement par Colab.
 
 Le fichier original se trouve à l'adresse suivante :
 [Colab](https://colab.research.google.com/drive/13B7oPTQ5OEOeLiFdA_nA_UVMU2p7t6zd)
 
-![Rhyme](https://rhyme.com/assets/img/logo-dark.png)
 
 # Tâche 1 : Introduction
 
