@@ -1,4 +1,4 @@
----
+
 # 1 - Création des environnements virtuels
 ### Méthode 1 : Utiliser `venv` avec PowerShell (Windows)
 
