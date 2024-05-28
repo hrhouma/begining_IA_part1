@@ -79,6 +79,168 @@ deactivate
 
 # 3 - Autres commandes
 
+```bash
+# Changer de répertoire
+cd C:\Users\Haythem\Desktop\codesPython
+
+# Créer un nouvel environnement Conda
+conda create -n test-env
+
+# Lister tous les environnements Conda
+conda env list
+
+# Activer un environnement Conda spécifique
+conda activate tkinter-env
+
+# Désactiver l'environnement Conda actuellement actif
+conda deactivate
+
+# Supprimer un environnement Conda
+conda remove --name test-env --all
+
+# Initialiser Conda (si nécessaire)
+conda init
+
+# Exemple de gestion d'environnement
+
+# Changer de répertoire
+cd C:\Users\Haythem\Desktop\codesPython
+
+# Créer un environnement appelé haythem-env
+conda create -n haythem-env
+
+# Lister tous les environnements Conda
+conda env list
+
+# Activer l'environnement tkinter-env
+conda activate tkinter-env
+
+# Désactiver l'environnement Conda actif
+conda deactivate
+
+# Supprimer l'environnement haythem-env
+conda remove --name haythem-env --all
+```
+
+---
+
+# 4 - Encore d'autres commandes utiles
+
+
+
+# Changer de répertoire
+cd C:\Users\Haythem\Desktop\codesPython
+
+# Créer un nouvel environnement Conda
+conda create -n test-env
+
+# Lister tous les environnements Conda
+conda env list
+
+# Activer un environnement Conda spécifique
+conda activate tkinter-env
+
+# Désactiver l'environnement Conda actuellement actif
+conda deactivate
+
+# Supprimer un environnement Conda
+conda remove --name test-env --all
+
+# Initialiser Conda (si nécessaire)
+conda init
+
+# Exemple de gestion d'environnement
+
+# Changer de répertoire
+cd C:\Users\Haythem\Desktop\codesPython
+
+# Créer un environnement appelé haythem-env
+conda create -n haythem-env
+
+# Lister tous les environnements Conda
+conda env list
+
+# Activer l'environnement tkinter-env
+conda activate tkinter-env
+
+# Désactiver l'environnement Conda actif
+conda deactivate
+
+# Supprimer l'environnement haythem-env
+conda remove --name haythem-env --all
+
+# Installer un package spécifique
+conda install numpy
+
+# Mettre à jour un package spécifique
+conda update numpy
+
+# Mettre à jour Conda
+conda update conda
+
+# Lister tous les packages installés dans l'environnement actif
+conda list
+
+# Lister les packages installés dans un environnement spécifique
+conda list -n haythem-env
+
+# Rechercher un package dans les canaux Conda
+conda search numpy
+
+# Exporter les packages installés dans un fichier
+conda env export > environment.yml
+
+# Créer un environnement à partir d'un fichier d'exportation
+conda env create -f environment.yml
+
+# Nettoyer les fichiers inutilisés
+conda clean --all
+
+# Désactiver tous les environnements actifs
+conda deactivate
+
+# Revenir à une version antérieure d'un package
+conda install numpy=1.18
+
+# Créer un environnement avec une version spécifique de Python
+conda create -n py38-env python=3.8
+
+# Cloner un environnement existant
+conda create --name clone-env --clone haythem-env
+
+# Afficher les informations sur Conda
+conda info
+
+# Afficher les informations sur un environnement spécifique
+conda info --envs
+
+# Afficher les informations détaillées sur un package
+conda list numpy
+
+# Lister les environnements Conda disponibles
+conda env list
+
+# Créer un environnement avec des packages spécifiques
+conda create -n data-env numpy pandas matplotlib
+
+# Supprimer tous les packages inutilisés et les anciennes versions
+conda clean --all
+
+# Désactiver l'environnement Conda actif
+conda deactivate
+
+# Activer un environnement Conda spécifique
+conda activate haythem-env
+
+# Désactiver l'environnement Conda actif
+conda deactivate
+
+
+---
+
+# 5 - 100 commandes
+
+
 Voici une liste de 100 commandes supplémentaires utiles pour la gestion d'environnements virtuels, la manipulation de packages Python, et d'autres tâches courantes en développement :
 
 ### Gestion des environnements virtuels
