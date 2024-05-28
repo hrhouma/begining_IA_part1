@@ -1,3 +1,4 @@
+# 1 - Création des environnements virtuels
 ### Méthode 1 : Utiliser `venv` avec PowerShell (Windows)
 
 ```powershell
@@ -44,7 +45,7 @@ source kafka_env/bin/activate
 # Pour désactiver l'environnement virtuel
 deactivate
 ```
-# Résumé
+# 2 - Résumé
 ### Méthode 1 : Utiliser `venv` avec PowerShell (Windows)
 
 ```powershell
@@ -65,6 +66,128 @@ conda deactivate
 ```
 
 ### Méthode 3 : Utiliser `venv` avec Bash (Linux)
+
+# 3 - Autres commandes
+
+Voici une liste de 100 commandes supplémentaires utiles pour la gestion d'environnements virtuels, la manipulation de packages Python, et d'autres tâches courantes en développement :
+
+### Gestion des environnements virtuels
+
+1. `python -m venv env`
+2. `python -m venv myenv`
+3. `source env/bin/activate`
+4. `source myenv/bin/activate`
+5. `env\Scripts\activate`
+6. `myenv\Scripts\activate`
+7. `deactivate`
+8. `conda create -n myenv`
+9. `conda activate myenv`
+10. `conda deactivate`
+11. `conda env list`
+12. `conda remove --name myenv --all`
+13. `virtualenv env`
+14. `pipenv --python 3.x`
+15. `pipenv shell`
+16. `pipenv install`
+17. `pipenv install requests`
+18. `pipenv uninstall requests`
+19. `pipenv lock`
+20. `pipenv graph`
+
+### Gestion des packages avec pip
+
+21. `pip install requests`
+22. `pip install numpy`
+23. `pip install pandas`
+24. `pip install flask`
+25. `pip install django`
+26. `pip install -r requirements.txt`
+27. `pip freeze`
+28. `pip freeze > requirements.txt`
+29. `pip uninstall requests`
+30. `pip list`
+31. `pip show requests`
+32. `pip search requests`
+33. `pip install --upgrade pip`
+34. `pip install --upgrade requests`
+35. `pip check`
+
+### Gestion des packages avec conda
+
+36. `conda install numpy`
+37. `conda install pandas`
+38. `conda install flask`
+39. `conda install django`
+40. `conda install -c conda-forge requests`
+41. `conda update conda`
+42. `conda update numpy`
+43. `conda list`
+44. `conda list -n myenv`
+45. `conda remove numpy`
+46. `conda info`
+47. `conda info --envs`
+48. `conda clean --all`
+49. `conda env export > environment.yml`
+50. `conda env create -f environment.yml`
+
+### Gestion de versions de Python
+
+51. `pyenv install 3.x.x`
+52. `pyenv uninstall 3.x.x`
+53. `pyenv versions`
+54. `pyenv global 3.x.x`
+55. `pyenv local 3.x.x`
+56. `pyenv shell 3.x.x`
+57. `pyenv virtualenv 3.x.x myenv`
+58. `pyenv virtualenvs`
+59. `pyenv activate myenv`
+60. `pyenv deactivate`
+
+### Gestion des projets avec Git
+
+61. `git init`
+62. `git clone <repo-url>`
+63. `git add .`
+64. `git commit -m "Initial commit"`
+65. `git push origin main`
+66. `git pull origin main`
+67. `git status`
+68. `git log`
+69. `git branch`
+70. `git checkout -b new-branch`
+71. `git merge new-branch`
+72. `git remote -v`
+73. `git fetch`
+74. `git rebase main`
+75. `git stash`
+76. `git stash pop`
+
+### Commandes diverses
+
+77. `python script.py`
+78. `python -m unittest`
+79. `python -m pytest`
+80. `python -m http.server`
+81. `python -m cProfile script.py`
+82. `jupyter notebook`
+83. `jupyter lab`
+84. `django-admin startproject mysite`
+85. `flask run`
+86. `mkdocs serve`
+87. `mkdocs build`
+88. `aws configure`
+89. `aws s3 ls`
+90. `aws ec2 describe-instances`
+91. `docker build -t myimage .`
+92. `docker run -d -p 80:80 myimage`
+93. `docker ps`
+94. `docker stop <container-id>`
+95. `docker rm <container-id>`
+96. `docker images`
+97. `docker rmi <image-id>`
+98. `kubectl get pods`
+99. `kubectl describe pod <pod-name>`
+100. `kubectl logs <pod-name>`
 
 ```bash
 cd /chemin/vers/votre/projet
