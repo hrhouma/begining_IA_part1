@@ -44,3 +44,31 @@ source kafka_env/bin/activate
 # Pour désactiver l'environnement virtuel
 deactivate
 ```
+# Résumé
+### Méthode 1 : Utiliser `venv` avec PowerShell (Windows)
+
+```powershell
+cd C:\Users\Haythem\Desktop\fastapi\fastapi-the-complete-course\
+python3 -m venv .monenv
+cd .\.monenv\Scripts\
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+.\Activate.ps1
+deactivate
+```
+
+### Méthode 2 : Utiliser `conda` (Windows/Linux)
+
+```bash
+conda create --name monenv python=3.x
+conda activate monenv
+conda deactivate
+```
+
+### Méthode 3 : Utiliser `venv` avec Bash (Linux)
+
+```bash
+cd /chemin/vers/votre/projet
+python3 -m venv kafka_env
+source kafka_env/bin/activate
+deactivate
+```
