@@ -1,3 +1,4 @@
+---
 # 1 - Création des environnements virtuels
 ### Méthode 1 : Utiliser `venv` avec PowerShell (Windows)
 
@@ -45,6 +46,7 @@ source kafka_env/bin/activate
 # Pour désactiver l'environnement virtuel
 deactivate
 ```
+---
 # 2 - Résumé
 ### Méthode 1 : Utiliser `venv` avec PowerShell (Windows)
 
@@ -66,6 +68,14 @@ conda deactivate
 ```
 
 ### Méthode 3 : Utiliser `venv` avec Bash (Linux)
+
+```bash
+cd /chemin/vers/votre/projet
+python3 -m venv kafka_env
+source kafka_env/bin/activate
+deactivate
+```
+---
 
 # 3 - Autres commandes
 
@@ -189,9 +199,4 @@ Voici une liste de 100 commandes supplémentaires utiles pour la gestion d'envir
 99. `kubectl describe pod <pod-name>`
 100. `kubectl logs <pod-name>`
 
-```bash
-cd /chemin/vers/votre/projet
-python3 -m venv kafka_env
-source kafka_env/bin/activate
-deactivate
-```
+
