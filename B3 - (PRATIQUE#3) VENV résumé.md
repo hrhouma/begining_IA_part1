@@ -127,7 +127,7 @@ conda remove --name haythem-env --all
 # 4 - Encore d'autres commandes utiles
 
 
-
+```bash
 # Changer de répertoire
 cd C:\Users\Haythem\Desktop\codesPython
 
@@ -234,14 +234,14 @@ conda activate haythem-env
 
 # Désactiver l'environnement Conda actif
 conda deactivate
-
+```
 
 ---
 
 # 5 - 100 commandes
 
 
-Voici une liste de 100 commandes supplémentaires utiles pour la gestion d'environnements virtuels, la manipulation de packages Python, et d'autres tâches courantes en développement :
+- Liste de 100 commandes supplémentaires utiles pour la gestion d'environnements virtuels, la manipulation de packages Python, et d'autres tâches courantes en développement :
 
 ### Gestion des environnements virtuels
 
