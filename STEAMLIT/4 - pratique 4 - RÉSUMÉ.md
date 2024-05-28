@@ -2,7 +2,7 @@
 
 ![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/b9d2f189-f938-495d-8c2c-8fc7181473da)
 
-- Structure du projet final avec  trois fichiers Python (`streamlit_basics.py`, `streamlit_layouts.py`, `streamlit_widgets.py`) et les fichiers médias :
+## Structure du projet final avec  trois fichiers Python (`streamlit_basics.py`, `streamlit_layouts.py`, `streamlit_widgets.py`) et les fichiers médias :
 
 ```
 3_STREAMLIT_PROJECT/
@@ -21,7 +21,7 @@
 └── streamlit_widgets.py
 ```
 
-### Fichier `streamlit_basics.py`
+# 1 - Fichier `streamlit_basics.py`
 
 Ce fichier contiendra les bases de Streamlit, y compris le texte, les en-têtes, les sous-titres, les messages de statut et l'affichage de médias.
 
@@ -65,7 +65,7 @@ video_file = open('./media/star.mp4', 'rb').read()
 st.video(video_file)
 ```
 
-### Fichier `streamlit_layouts.py`
+# 2 -  Fichier `streamlit_layouts.py`
 
 Ce fichier contiendra la mise en page avec des barres latérales, des colonnes et des onglets.
 
@@ -109,7 +109,7 @@ with tab3:
     st.image('./media/owl.jpg')
 ```
 
-### Fichier `streamlit_widgets.py`
+# 3 - Fichier `streamlit_widgets.py`
 
 Ce fichier contiendra les différents widgets interactifs.
 
