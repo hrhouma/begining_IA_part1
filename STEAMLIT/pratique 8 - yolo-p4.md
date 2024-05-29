@@ -1,3 +1,4 @@
+# Objectif : Transformer le projet initial en une application web utilisant Docker-Compose et FastAPI
 ### Conversion du Projet en Utilisant Docker-Compose et FastAPI
 
 Nous allons transformer le projet de détection d'objets utilisant Streamlit et YOLO pour utiliser Docker-Compose et FastAPI. Nous allons créer une API REST avec FastAPI pour gérer les prédictions et utiliser Streamlit comme interface utilisateur pour interagir avec cette API.
