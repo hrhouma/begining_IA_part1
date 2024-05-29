@@ -300,7 +300,3 @@ Below are the objects that our model will detect:
 20. Dog 
 """)
 ```
-
-### Conclusion
-
-Avec ces étapes et les commentaires détaillés, vos étudiants pourront développer une application web complète de détection d'objets utilisant Streamlit et YOLO. Assurez-vous que les dossiers `images` et `models` contiennent les fichiers nécessaires pour que les exemples fonctionnent correctement. Les étudiants doivent suivre chaque étape, tester et valider leur code avant de passer à l'étape suivante.
