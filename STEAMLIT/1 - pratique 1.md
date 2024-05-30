@@ -257,3 +257,5 @@ with st.sidebar.form(key='my_form'):
     if submit_button:
         st.write(f'Hello {name}')
 ```
+# Exercice : 
+- Ajoutez un champ pour le password dans le formulaire.
