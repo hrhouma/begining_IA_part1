@@ -234,3 +234,7 @@ with tab3:
     st.write('You are in Owl Tab')
     st.image('path/to/your/owl.jpg')
 ```
+
+# Exercice :
+
+- Ajoutez des emojis
