@@ -102,20 +102,21 @@ requests
 
 6.1. Clonez ce dépôt sur votre machine locale :
 
-    ```bash
-    git clone https://votre-repo-git.git
-    cd votre-repo
-    ```
+```bash
+git clone https://votre-repo-git.git
+cd votre-repo
+```
+
 
 6.2. Créez un environnement virtuel et activez-le :
 
-    ```bash
-    python -m venv myenv
-    # Sous Windows
-    myenv\Scripts\activate
-    # Sous macOS et Linux
-    source myenv/bin/activate
-    ```
+```bash
+python -m venv myenv
+# Sous Windows
+myenv\Scripts\activate
+# Sous macOS et Linux
+source myenv/bin/activate
+```
 
 6.3. Installez les dépendances nécessaires :
 
