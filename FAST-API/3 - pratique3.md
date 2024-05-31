@@ -171,8 +171,8 @@ streamlit run frontend.py
 
 ```bash
 # Cloner le dépôt
-git clone https://votre-repo-git.git
-cd votre-repo
+git clone https://github.com/hrhouma/fastapi-calculator-tensorflow-1.git
+cd fastapi-calculator-tensorflow-1
 
 # Créer et activer un environnement virtuel
 python -m venv myenv
