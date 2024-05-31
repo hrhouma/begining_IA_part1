@@ -58,3 +58,9 @@
 
 # 5 - Objectif : 
 - Utiliser Streamlit pour créer des applications interactives, manipuler des données, et générer des graphiques.
+
+# 6 - Références utiles (optionnel): 
+
+- https://medium.com/@rhoumahaythem/partie-5-20-cr%C3%A9ation-dune-application-web-interactive-pour-la-classification-binaire-avec-e50a714eb397 
+- https://github.com/hrhouma/ML1-WebApp-with-Streamlit-and-Python 
+
