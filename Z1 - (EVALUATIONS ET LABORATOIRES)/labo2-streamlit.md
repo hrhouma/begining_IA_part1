@@ -2,6 +2,10 @@
 
 **Objectif:** Développer une application avec Streamlit permettant de charger un fichier CSV, d'afficher les données, et de générer un graphique basé sur une colonne numérique sélectionnée.
 
+# Lien des données + VIDÉO : 
+- https://drive.google.com/drive/folders/17Cmg05yZFeWIC_ZCNwEGjQPB030Nk1EE?usp=sharing
+- https://drive.google.com/drive/folders/1AvnBZcGnTznxmJE2sMPMkdMXK_a5gDnw?usp=sharing
+
 # 1 - Instructions:
 
 1. **Titre de l'application:**
