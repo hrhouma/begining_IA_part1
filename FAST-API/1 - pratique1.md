@@ -105,6 +105,8 @@ Une fois sur la page de documentation, vous verrez une liste des points de termi
      - Réponse : `{"result": 2.0}`
 
 #### Étape 6 : Tester l'API avec Swagger UI
+- Pour accéder à Swagger , ajoutez /docs
+# http://127.0.0.1:8000/docs
 
 Pour tester chaque point de terminaison :
 
