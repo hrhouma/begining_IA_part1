@@ -103,8 +103,8 @@ requests
 6.1. Clonez ce dépôt sur votre machine locale :
 
 ```bash
-git clone https://votre-repo-git.git
-cd votre-repo
+git clone https://github.com/hrhouma/fastapi-calculator-tensorflow-1.git
+cd fastapi-calculator-tensorflow-1
 ```
 
 
