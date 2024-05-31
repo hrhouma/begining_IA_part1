@@ -56,4 +56,5 @@
 - **Interactivité** : L'application est interactive et réactive aux entrées de l'utilisateur.
 - **Présentation** : L'interface utilisateur est propre et bien organisée.
 
-Cette évaluation permet de tester la capacité des étudiants à utiliser Streamlit pour créer des applications interactives, manipuler des données, et générer des graphiques, tout en suivant une structure de projet bien définie.
+# 5 - Objectif : 
+- Utiliser Streamlit pour créer des applications interactives, manipuler des données, et générer des graphiques.
