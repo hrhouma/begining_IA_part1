@@ -1,66 +1,94 @@
-# LABORATOIRE 2 - Évaluation Pratique de Laboratoire sur Streamlit
+# Évaluation Lab2: Développement d'une Application de Visualisation de Données CSV avec Streamlit
 
-# 1 - Objectif
+**Objectif:** Développer une application avec Streamlit permettant de charger un fichier CSV, d'afficher les données, et de générer un graphique basé sur une colonne numérique sélectionnée.
 
-- Créer une application Streamlit complète qui permet de télécharger et visualiser des données, d'effectuer des calculs simples, et de générer des graphiques interactifs.
+# 1 - Instructions:
 
-# 2 - Instructions
+1. **Titre de l'application:**
+   - Ajouter un titre en haut de la page indiquant "Application de Visualisation de Données CSV".
 
-1. **Installation et préparation :**
-   - Assurez-vous que Streamlit est installé dans votre environnement. Utilisez la commande suivante pour installer Streamlit si ce n'est pas déjà fait :
-     ```bash
-     pip install streamlit
-     ```
+2. **Chargement du fichier CSV:**
+   - Utiliser une fonction Streamlit pour permettre aux utilisateurs de charger un fichier CSV.
+   - Spécifier que seuls les fichiers de type CSV sont acceptés.
 
-2. **Création du fichier principal :**
-   - Créez un fichier nommé `lab_app.py` où vous allez écrire tout le code pour cette évaluation.
+![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/de4d848a-0fbd-4410-9f38-fe125421db67)
 
-3. **Structure de l'application :**
-   - Ajoutez un titre à votre application avec `st.title`.
-   - Créez trois sections principales dans l'application : 
-     1. Téléchargement et affichage de données
-     2. Calculs simples
-     3. Génération de graphiques
 
-4. **Téléchargement et affichage de données :**
-   - Utilisez `st.file_uploader` pour permettre à l'utilisateur de télécharger un fichier CSV.
-   - Affichez le contenu du fichier CSV dans un tableau avec `st.dataframe`.
+3. **Lecture et affichage des données:**
+   - Lire le fichier CSV chargé.
+   - Afficher un aperçu des données dans un tableau.
 
-5. **Calculs simples :**
-   - Créez des champs d'entrée pour permettre à l'utilisateur d'entrer deux nombres.
-   - Ajoutez des boutons pour effectuer des opérations d'addition, de soustraction, de multiplication et de division.
-   - Affichez le résultat de l'opération sélectionnée.
+![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/f365ee79-7af8-4ecb-b976-b0104deb1564)
 
-6. **Génération de graphiques :**
-   - Permettez à l'utilisateur de sélectionner une colonne de données pour générer un graphique.
-   - Utilisez `st.line_chart` ou `st.bar_chart` pour afficher le graphique basé sur la colonne sélectionnée.
+4. **Sélection de colonne pour le graphique:**
+   - Permettre aux utilisateurs de sélectionner une colonne parmi celles contenant des données numériques (types `float` ou `int`).
+![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/5dbb6271-e52b-4e68-b666-8e300f897b97)
 
-7. **Test de l'application :**
-   - Exécutez votre application avec la commande suivante :
-     ```bash
-     streamlit run lab_app.py
-     ```
-   - Testez toutes les fonctionnalités pour vous assurer qu'elles fonctionnent correctement.
-   - Capturez des captures d'écran des différentes sections de l'application en fonctionnement.
 
-# 3 - Consignes de soumission
+5. **Génération du graphique:**
+   - Générer un graphique en ligne basé sur la colonne sélectionnée.
+![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/d5972913-0f0e-4d4c-9217-7a272e9116be)
 
-1. Téléchargez votre fichier `lab_app.py`.
-2. Capturez des captures d'écran des différentes sections de votre application en fonctionnement.
-3. Soumettez le fichier `lab_app.py` et les captures d'écran comme preuve de votre travail.
 
-# 4 - Critères d'évaluation
+6. **Gestion des erreurs et des cas particuliers:**
+   - Afficher un message demandant aux utilisateurs de charger un fichier CSV si aucun fichier n'est chargé.
+   - S'assurer que l'application ne plante pas en cas d'erreurs ou de fichiers incorrects.
 
-- **Correctitude** : Les fonctionnalités demandées fonctionnent comme prévu.
-- **Organisation du code** : Le code est bien structuré et lisible.
-- **Interactivité** : L'application est interactive et réactive aux entrées de l'utilisateur.
-- **Présentation** : L'interface utilisateur est propre et bien organisée.
+7. **Bonus: Chargement du fichier CSV depuis la barre latérale:**
+   - Utiliser une fonction Streamlit pour permettre le chargement du fichier CSV depuis la barre latérale.
 
-# 5 - Objectif : 
-- Utiliser Streamlit pour créer des applications interactives, manipuler des données, et générer des graphiques.
+# 2 - Exigences spécifiques:
 
-# 6 - Références utiles (optionnel): 
+1. **Afficher un message clair si aucun fichier n'est chargé.**
+2. **Vérifier que le fichier CSV contient des colonnes numériques avant de permettre la sélection d'une colonne.**
+3. **Gérer les erreurs potentielles lors de la lecture du fichier CSV.**
+4. **Ajouter la possibilité de charger le fichier CSV depuis la barre latérale.**
 
-- https://medium.com/@rhoumahaythem/partie-5-20-cr%C3%A9ation-dune-application-web-interactive-pour-la-classification-binaire-avec-e50a714eb397 
-- https://github.com/hrhouma/ML1-WebApp-with-Streamlit-and-Python 
+# 3 - Structure attendue:
 
+1. **Titre de l'application:**
+   - Utiliser `st.title` pour afficher le titre de l'application.
+
+2. **Chargement du fichier CSV:**
+   - Utiliser `st.file_uploader` pour permettre le chargement de fichiers CSV.
+
+3. **Lecture et affichage des données:**
+   - Lire le fichier CSV chargé avec une fonction appropriée.
+   - Afficher les données dans un tableau.
+
+4. **Sélection de colonne pour le graphique:**
+   - Permettre la sélection de colonnes numériques avec une fonction appropriée.
+
+5. **Génération du graphique:**
+   - Générer un graphique en ligne basé sur la colonne sélectionnée avec une fonction appropriée.
+
+6. **Gestion des erreurs et des cas particuliers:**
+   - Ajouter des conditions pour afficher des messages appropriés si aucun fichier n'est chargé ou si le fichier ne contient pas de colonnes numériques.
+
+7. **Bonus: Chargement du fichier CSV depuis la barre latérale:**
+   - Ajouter une option de chargement du fichier CSV dans la barre latérale avec une fonction appropriée.
+
+# 4 - Critères d'évaluation:
+
+1. **Fonctionnalité:**
+   - L'application doit charger et lire correctement un fichier CSV.
+   - L'application doit afficher les données du fichier CSV.
+   - L'application doit permettre la sélection d'une colonne numérique pour générer un graphique.
+   - L'application doit générer et afficher correctement un graphique en ligne basé sur la colonne sélectionnée.
+   - L'application doit permettre le chargement du fichier CSV depuis la barre latérale (bonus).
+
+2. **Interface utilisateur:**
+   - L'application doit être intuitive et facile à utiliser.
+   - Les messages d'erreur doivent être clairs et informatifs.
+
+3. **Code:**
+   - Le code doit être bien structuré et commenté.
+   - Le code doit gérer les erreurs et les cas particuliers de manière appropriée.
+   - Le code doit inclure l'option de chargement du fichier CSV depuis la barre latérale (bonus).
+
+# 5 - Soumission:
+
+- Soumettre le code source de l'application sur LÉA.
+- Les fichiers soumis doivent être bien nommés et inclure des commentaires expliquant les différentes sections du code.
+
+Bonne chance et bon développement !
