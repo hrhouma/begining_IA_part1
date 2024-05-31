@@ -60,6 +60,7 @@ Swagger UI est une interface web interactive qui permet de tester votre API. Pou
 1. Ouvrez votre navigateur.
 2. Rendez-vous à l'URL `http://127.0.0.1:8000/docs`.
 
+# http://127.0.0.1:8000/docs
 #### Étape 5 : Utilisation de Swagger UI
 
 Une fois sur la page de documentation, vous verrez une liste des points de terminaison disponibles.
