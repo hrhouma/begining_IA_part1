@@ -128,7 +128,7 @@ Ce projet consiste à créer une calculatrice web simple en utilisant Streamlit 
 
 # Résumé des commandes:
 
-    ```python
+```python
     # Cloner le dépôt
     git clone https://github.com/hrhouma/fastapi-calculator.git
     cd fastapi-calculator
@@ -148,4 +148,4 @@ Ce projet consiste à créer une calculatrice web simple en utilisant Streamlit 
 
     # Démarrer l'application Streamlit
     streamlit run frontend.py
-    ```
+```
