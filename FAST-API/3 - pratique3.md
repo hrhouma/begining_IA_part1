@@ -119,33 +119,33 @@ requests
 
 6.3. Installez les dépendances nécessaires :
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+pip install -r requirements.txt
+```
 
 6.4. Entraînement du modèle
 
 1. Exécutez le script `model.py` pour entraîner et sauvegarder le modèle :
 
-    ```bash
-    python model.py
-    ```
+```bash
+python model.py
+```
 
 6.5. Démarrage du Backend
 
 1. Démarrez le serveur FastAPI :
 
-    ```bash
-    uvicorn backend:app --reload
-    ```
+```bash
+uvicorn backend:app --reload
+```
 
 6.6. Démarrage du Frontend
 
 1. Lancez l'application Streamlit :
 
-    ```bash
-    streamlit run frontend.py
-    ```
+```bash
+streamlit run frontend.py
+```
 
 6.7. Utilisation
 
