@@ -1,4 +1,124 @@
-## Comparaison des Codes et Concepts Introduits (1 à 6)
+# Comparaison des Codes (1 à 6)
+
+# 1 - Comparaison VERSION 1 des Codes et Concepts Introduits (1 à 6)
+
+
+Voici les lignes de code ajoutées ou modifiées entre les versions 1 et 6, ainsi que les concepts introduits à chaque étape.
+
+#### Code 1 à 2 : Introduction de MLflow
+
+**Ajouts :**
+
+```python
+import mlflow
+import mlflow.sklearn
+
+with mlflow.start_run():
+    lr = ElasticNet(alpha=alpha, l1_ratio=l1_ratio, random_state=42)
+    lr.fit(train_x, train_y)
+
+    predicted_qualities = lr.predict(test_x)
+
+    (rmse, mae, r2) = eval_metrics(test_y, predicted_qualities)
+
+    print("Elasticnet model (alpha={:f}, l1_ratio={:f}):".format(alpha, l1_ratio))
+    print("  RMSE: %s" % rmse)
+    print("  MAE: %s" % mae)
+    print("  R2: %s" % r2)
+
+    mlflow.log_param("alpha", alpha)
+    mlflow.log_param("l1_ratio", l1_ratio)
+    mlflow.log_metric("rmse", rmse)
+    mlflow.log_metric("mae", mae)
+    mlflow.log_metric("r2", r2)
+
+    mlflow.sklearn.log_model(lr, "model")
+```
+
+**Concepts Introduits :**
+
+- Utilisation de MLflow pour le suivi des expériences, enregistrement des paramètres, des métriques et du modèle.
+
+#### Code 2 à 3 : Configuration de l'URI de Suivi MLflow
+
+**Ajouts :**
+
+```python
+mlflow.set_tracking_uri(uri="")
+print("The set tracking uri is ", mlflow.get_tracking_uri())
+```
+
+**Concepts Introduits :**
+
+- Configuration de l'URI de suivi avec `mlflow.set_tracking_uri` et `mlflow.get_tracking_uri`.
+
+#### Code 3 à 4 : Création d'une Expérience MLflow
+
+**Ajouts :**
+
+```python
+from pathlib import Path
+
+exp_id = mlflow.create_experiment(
+    name="exp_create_exp_artifact",
+    tags={"version": "v1", "priority": "p1"},
+    artifact_location=Path.cwd().joinpath("myartifacts").as_uri()
+)
+get_exp = mlflow.get_experiment(exp_id)
+
+print("Name: {}".format(get_exp.name))
+print("Experiment_id: {}".format(get_exp.experiment_id))
+print("Artifact Location: {}".format(get_exp.artifact_location))
+print("Tags: {}".format(get_exp.tags))
+print("Lifecycle_stage: {}".format(get_exp.lifecycle_stage))
+print("Creation timestamp: {}".format(get_exp.creation_time))
+
+with mlflow.start_run(experiment_id=exp_id):
+```
+
+**Concepts Introduits :**
+
+- Création d'une nouvelle expérience avec `mlflow.create_experiment` et ajout de métadonnées et d'emplacement d'artefact.
+
+#### Code 4 à 5 : Gestion des Exécutions Actives
+
+**Ajouts :**
+
+```python
+mlflow.end_run()
+run = mlflow.last_active_run()
+print("Active run id is {}".format(run.info.run_id))
+print("Active run name is {}".format(run.info.run_name))
+```
+
+**Concepts Introduits :**
+
+- Gestion des exécutions actives avec `mlflow.start_run`, `mlflow.end_run`, et `mlflow.last_active_run`.
+
+#### Code 5 à 6 : Enregistrement des Artefacts
+
+**Ajouts :**
+
+```python
+import os
+os.makedirs("data", exist_ok=True)
+data.to_csv("data/red-wine-quality.csv", index=False)
+train.to_csv("data/train.csv", index=False)
+test.to_csv("data/test.csv", index=False)
+
+mlflow.log_artifacts("data/")
+
+artifacts_uri = mlflow.get_artifact_uri()
+print("The artifact path is", artifacts_uri)
+```
+
+**Concepts Introduits :**
+
+- Enregistrement des artefacts avec `mlflow.log_artifacts` pour enregistrer les fichiers de données associés à l'expérience.
+
+Ces ajouts montrent comment chaque version du code ajoute de nouvelles fonctionnalités, améliorant progressivement les capacités de suivi et de gestion des expériences de machine learning avec MLflow.
+
+# 2 - Comparaison VERSION 2 des Codes et Concepts Introduits (1 à 6)
 
 ### Introduction
 
