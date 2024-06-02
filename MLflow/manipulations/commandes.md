@@ -34,7 +34,7 @@ mlflow runs delete --run-id
 mlflow runs restore --run-id
 ```
 
-# 2 - Explications :
+# 2 - Explications 
 
 ### Liste des Commandes MLflow et Leurs Explications
 
