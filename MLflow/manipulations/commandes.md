@@ -1,4 +1,5 @@
 
+```bash
 mlflow doctor
 
 mlflow doctor --mask-envs
@@ -29,7 +30,8 @@ mlflow runs describe --run-id 97e72d1a3a074e97a4a59b95625cca64
 
 mlflow runs delete --run-id 
 
-mlflow runs restore --run-id 
+mlflow runs restore --run-id
+```
 
 
 
