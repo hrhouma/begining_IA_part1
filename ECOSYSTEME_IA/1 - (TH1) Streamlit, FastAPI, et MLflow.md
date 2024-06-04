@@ -1,20 +1,20 @@
-# Utilisation de Streamlit, FastAPI et MLflow dans un projet de Machine Learning
+# Utilisation de Streamlit, FastAPI et MLflow dans un projet de Machine Learning 🚀
 
 ## Présentation
 
 Pour développer une application de Machine Learning, nous pouvons utiliser trois outils principaux : Streamlit, FastAPI, et MLflow. Voici comment chacun de ces outils fonctionne et comment ils peuvent être utilisés ensemble.
 
-## Streamlit (Frontend)
+## Streamlit (Frontend) 🖥️
 
 ### Rôle de Streamlit
 
-**Streamlit** est comme une vitrine de magasin. C'est l'interface où les utilisateurs viennent interagir avec votre application de Machine Learning. Imaginez que vous avez une application qui prédit les prix des maisons. Avec Streamlit, vous pouvez créer une page web où les utilisateurs peuvent entrer des informations sur une maison (comme la taille, le nombre de chambres, etc.) et voir le prix prédit par le modèle.
+**Streamlit** est comme une vitrine de magasin. C'est l'interface où les utilisateurs viennent interagir avec votre application de Machine Learning. Imaginez que vous avez une application qui prédit les rendements des cultures. Avec Streamlit, vous pouvez créer une page web où les utilisateurs peuvent entrer des informations sur leurs champs (comme la taille, le type de sol, etc.) et voir le rendement prédit par le modèle.
 
 ### Exemple de la vie réelle
 
 Pensez à Streamlit comme un kiosque interactif dans un centre commercial. Les clients (utilisateurs) peuvent toucher l'écran, entrer des informations, et voir les résultats instantanément.
 
-## FastAPI (Backend)
+## FastAPI (Backend) 🍽️
 
 ### Rôle de FastAPI
 
@@ -24,7 +24,7 @@ Pensez à Streamlit comme un kiosque interactif dans un centre commercial. Les c
 
 Imaginez que Streamlit est le serveur de restaurant qui prend les commandes des clients. Le serveur envoie ces commandes à la cuisine (FastAPI) où les plats (prédictions) sont préparés et ensuite renvoyés au serveur pour être servis aux clients.
 
-## MLflow (MLOps)
+## MLflow (MLOps) 🔬
 
 ### Rôle de MLflow
 
@@ -34,7 +34,7 @@ Imaginez que Streamlit est le serveur de restaurant qui prend les commandes des 
 
 Imaginez une entreprise de cosmétiques qui teste plusieurs formules pour créer une nouvelle crème anti-âge. Chaque formule est testée sur plusieurs volontaires, et les résultats sont soigneusement notés. MLflow fait la même chose pour les modèles de Machine Learning : il suit les différentes versions des modèles, les paramètres utilisés, et les performances obtenues.
 
-## Workflow d'intégration
+## Workflow d'intégration 🔄
 
 ### Exemple de projet complet
 
@@ -55,11 +55,11 @@ Imaginons que vous développez une application qui aide les agriculteurs à pré
    - Les agriculteurs obtiennent des prédictions instantanées sur leurs rendements grâce à l'interface utilisateur.
    - Exemple : Une page web où les agriculteurs peuvent entrer des informations sur leurs champs et voir les prédictions de rendement.
 
-## Conclusion
+## Conclusion 📊
 
 En utilisant Streamlit pour l'interface utilisateur, FastAPI pour le traitement des données, et MLflow pour la gestion et le suivi des modèles de Machine Learning, vous pouvez créer une application de Machine Learning efficace et bien organisée. C'est comme avoir une vitrine interactive, une cuisine efficace, et un laboratoire de recherche avancé travaillant ensemble pour offrir une solution complète.
 
-# Annexe 1
+# Annexe 1 📜
 
 ```
 ---------------------------------------------------------------------
@@ -104,30 +104,30 @@ En utilisant Streamlit pour l'interface utilisateur, FastAPI pour le traitement 
 ---------------------------------------------------------------------
 ```
 
-# Annexe 2
+# Annexe 2 🌐
 
 - [How to build complete end to end ML model backend RestAPI using FastAPI and frontend UI using Streamlit](https://medium.com/@goradbj/how-to-build-complete-end-to-end-ml-model-backend-restapi-using-fastapi-and-front-end-ui-using-22f64bf04476)
 
 ![How to build complete end to end ML model backend RestAPI using FastAPI and frontend UI using Streamlit](https://github.com/hrhouma/begining_IA_part1/assets/10111526/c261da4e-7fa2-460b-9d5f-31d5bf3a7426)
 
-# Annexe 3
+# Annexe 3 🌟
 
 - [Serving models using Streamlit & FastAPI](https://medium.com/@publiciscommerce/serving-models-using-streamlit-fastapi-a73af8da5ade)
 
 ![Serving models using Streamlit & FastAPI](https://github.com/hrhouma/begining_IA_part1/assets/10111526/43bc6e5a-9940-40eb-b9cc-1bac19c3c525)
 
-# Annexe 4
+# Annexe 4 🧪
 
 - [How to Build an Instant Machine Learning Web Application with Streamlit and FastAPI](https://developer.nvidia.com/blog/how-to-build-an-instant-machine-learning-web-application-with-streamlit-and-fastapi/)
 
-# Autres
+# Autres 📚
 
 - [Use Model in Real Use Case Including Backend and Frontend Apps](https://akpolatcem.medium.com/use-model-in-real-use-case-including-backend-and-frontend-apps-f4d8164cba8b)
 - [HR Attrition MLOps](https://github.com/silverstone1903/hr-attrition-mlops)
 - [Ultimate FastAPI Tutorial Pt. 12 - React.js Frontend](https://christophergs.com/tutorials/ultimate-fastapi-tutorial-pt-12-react-js-frontend/)
 - [MLflow Tracking](https://www.mlflow.org/docs/2.5.0/tracking.html)
 
-# Images et références
+# Images et références 🖼️
 
 - [HR Attrition MLOps](https://github.com/silverstone1903/hr-attrition-mlops)
 
