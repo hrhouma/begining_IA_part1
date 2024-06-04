@@ -59,7 +59,7 @@ Imaginons que vous développez une application qui aide les agriculteurs à pré
 
 En utilisant Streamlit pour l'interface utilisateur, FastAPI pour le traitement des données, et MLflow pour la gestion et le suivi des modèles de Machine Learning, vous pouvez créer une application de Machine Learning efficace et bien organisée. C'est comme avoir une vitrine interactive, une cuisine efficace, et un laboratoire de recherche avancé travaillant ensemble pour offrir une solution complète.
 
-# Annexe 1 :
+# Annexe 1
 
 ```
 ---------------------------------------------------------------------
@@ -103,36 +103,44 @@ En utilisant Streamlit pour l'interface utilisateur, FastAPI pour le traitement 
 |                  (Visualisation des résultats)                     |
 ---------------------------------------------------------------------
 ```
-# Annexe 2 :
-- https://medium.com/@goradbj/how-to-build-complete-end-to-end-ml-model-backend-restapi-using-fastapi-and-front-end-ui-using-22f64bf04476
-![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/c261da4e-7fa2-460b-9d5f-31d5bf3a7426)
 
-# Annexe 3: 
-- https://medium.com/@publiciscommerce/serving-models-using-streamlit-fastapi-a73af8da5ade
-![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/43bc6e5a-9940-40eb-b9cc-1bac19c3c525)
+# Annexe 2
 
+- [How to build complete end to end ML model backend RestAPI using FastAPI and frontend UI using Streamlit](https://medium.com/@goradbj/how-to-build-complete-end-to-end-ml-model-backend-restapi-using-fastapi-and-front-end-ui-using-22f64bf04476)
 
+![How to build complete end to end ML model backend RestAPI using FastAPI and frontend UI using Streamlit](https://github.com/hrhouma/begining_IA_part1/assets/10111526/c261da4e-7fa2-460b-9d5f-31d5bf3a7426)
 
-# Annexe 4:
-- https://developer.nvidia.com/blog/how-to-build-an-instant-machine-learning-web-application-with-streamlit-and-fastapi/
+# Annexe 3
+
+- [Serving models using Streamlit & FastAPI](https://medium.com/@publiciscommerce/serving-models-using-streamlit-fastapi-a73af8da5ade)
+
+![Serving models using Streamlit & FastAPI](https://github.com/hrhouma/begining_IA_part1/assets/10111526/43bc6e5a-9940-40eb-b9cc-1bac19c3c525)
+
+# Annexe 4
+
+- [How to Build an Instant Machine Learning Web Application with Streamlit and FastAPI](https://developer.nvidia.com/blog/how-to-build-an-instant-machine-learning-web-application-with-streamlit-and-fastapi/)
 
 # Autres
-- https://akpolatcem.medium.com/use-model-in-real-use-case-including-backend-and-frontend-apps-f4d8164cba8b
-- https://github.com/silverstone1903/hr-attrition-mlops
-- https://christophergs.com/tutorials/ultimate-fastapi-tutorial-pt-12-react-js-frontend/
-- https://www.mlflow.org/docs/2.5.0/tracking.html
+
+- [Use Model in Real Use Case Including Backend and Frontend Apps](https://akpolatcem.medium.com/use-model-in-real-use-case-including-backend-and-frontend-apps-f4d8164cba8b)
+- [HR Attrition MLOps](https://github.com/silverstone1903/hr-attrition-mlops)
+- [Ultimate FastAPI Tutorial Pt. 12 - React.js Frontend](https://christophergs.com/tutorials/ultimate-fastapi-tutorial-pt-12-react-js-frontend/)
+- [MLflow Tracking](https://www.mlflow.org/docs/2.5.0/tracking.html)
 
 # Images et références
-- https://github.com/silverstone1903/hr-attrition-mlops
-![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/c91e2558-ebf3-4ad8-9cbd-e3ab5431392f)
-- https://christophergs.com/tutorials/ultimate-fastapi-tutorial-pt-12-react-js-frontend/
-![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/9e050b9e-625a-408a-8e70-809bad619b7f)
-- https://medium.com/@publiciscommerce/serving-models-using-streamlit-fastapi-a73af8da5ade
-![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/29be32f7-c962-4684-8c7e-76c1094bcc9f)
-- https://medium.com/@goradbj/how-to-build-complete-end-to-end-ml-model-backend-restapi-using-fastapi-and-front-end-ui-using-22f64bf04476
-![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/e0b90506-7b69-4294-873b-22a6106aae12)
 
+- [HR Attrition MLOps](https://github.com/silverstone1903/hr-attrition-mlops)
 
+![HR Attrition MLOps](https://github.com/hrhouma/begining_IA_part1/assets/10111526/c91e2558-ebf3-4ad8-9cbd-e3ab5431392f)
 
+- [Ultimate FastAPI Tutorial Pt. 12 - React.js Frontend](https://christophergs.com/tutorials/ultimate-fastapi-tutorial-pt-12-react-js-frontend/)
 
+![Ultimate FastAPI Tutorial Pt. 12 - React.js Frontend](https://github.com/hrhouma/begining_IA_part1/assets/10111526/9e050b9e-625a-408a-8e70-809bad619b7f)
 
+- [Serving models using Streamlit & FastAPI](https://medium.com/@publiciscommerce/serving-models-using-streamlit-fastapi-a73af8da5ade)
+
+![Serving models using Streamlit & FastAPI](https://github.com/hrhouma/begining_IA_part1/assets/10111526/29be32f7-c962-4684-8c7e-76c1094bcc9f)
+
+- [How to build complete end to end ML model backend RestAPI using FastAPI and frontend UI using Streamlit](https://medium.com/@goradbj/how-to-build-complete-end-to-end-ml-model-backend-restapi-using-fastapi-and-front-end-ui-using-22f64bf04476)
+
+![How to build complete end to end ML model backend RestAPI using FastAPI and frontend UI using Streamlit](https://github.com/hrhouma/begining_IA_part1/assets/10111526/e0b90506-7b69-4294-873b-22a6106aae12)
