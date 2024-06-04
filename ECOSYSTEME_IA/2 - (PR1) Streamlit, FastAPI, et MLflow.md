@@ -1,6 +1,3 @@
-Voici un exemple de `README.md` expliquant la différence entre Streamlit, FastAPI, et MLflow, ainsi que comment les utiliser ensemble dans un projet de Machine Learning :
-
-```markdown
 # Projet de Machine Learning avec Streamlit, FastAPI et MLflow
 
 Ce projet montre comment intégrer Streamlit pour le frontend, FastAPI pour le backend et MLflow pour la gestion du cycle de vie du Machine Learning (MLOps). 
@@ -128,10 +125,3 @@ pip install -r requirements.txt
 ## Conclusion
 
 Ce projet montre comment intégrer Streamlit, FastAPI, et MLflow pour créer une application de Machine Learning complète, de la création d'une interface utilisateur interactive à la gestion du cycle de vie du modèle. En utilisant ces outils ensemble, vous pouvez développer, déployer et gérer efficacement vos projets de Machine Learning.
-
----
-
-Pour toute question ou suggestion, n'hésitez pas à ouvrir une issue ou à me contacter directement.
-```
-
-N'hésitez pas à adapter ce `README.md` selon les spécificités de votre projet.
