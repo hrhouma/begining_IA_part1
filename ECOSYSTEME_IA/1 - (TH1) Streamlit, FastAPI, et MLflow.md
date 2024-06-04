@@ -104,30 +104,32 @@ En utilisant Streamlit pour l'interface utilisateur, FastAPI pour le traitement 
 ---------------------------------------------------------------------
 ```
 # Annexe 2 :
-https://medium.com/@goradbj/how-to-build-complete-end-to-end-ml-model-backend-restapi-using-fastapi-and-front-end-ui-using-22f64bf04476
+- https://medium.com/@goradbj/how-to-build-complete-end-to-end-ml-model-backend-restapi-using-fastapi-and-front-end-ui-using-22f64bf04476
 ![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/c261da4e-7fa2-460b-9d5f-31d5bf3a7426)
 
 # Annexe 3: 
-https://medium.com/@publiciscommerce/serving-models-using-streamlit-fastapi-a73af8da5ade
+- https://medium.com/@publiciscommerce/serving-models-using-streamlit-fastapi-a73af8da5ade
 ![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/43bc6e5a-9940-40eb-b9cc-1bac19c3c525)
 
 
 
 # Annexe 4:
-https://developer.nvidia.com/blog/how-to-build-an-instant-machine-learning-web-application-with-streamlit-and-fastapi/
+- https://developer.nvidia.com/blog/how-to-build-an-instant-machine-learning-web-application-with-streamlit-and-fastapi/
 
-https://akpolatcem.medium.com/use-model-in-real-use-case-including-backend-and-frontend-apps-f4d8164cba8b
-https://github.com/silverstone1903/hr-attrition-mlops
-https://christophergs.com/tutorials/ultimate-fastapi-tutorial-pt-12-react-js-frontend/
-https://www.mlflow.org/docs/2.5.0/tracking.html
+# Autres
+- https://akpolatcem.medium.com/use-model-in-real-use-case-including-backend-and-frontend-apps-f4d8164cba8b
+- https://github.com/silverstone1903/hr-attrition-mlops
+- https://christophergs.com/tutorials/ultimate-fastapi-tutorial-pt-12-react-js-frontend/
+- https://www.mlflow.org/docs/2.5.0/tracking.html
 
-https://github.com/silverstone1903/hr-attrition-mlops
+# Images et références
+- https://github.com/silverstone1903/hr-attrition-mlops
 ![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/c91e2558-ebf3-4ad8-9cbd-e3ab5431392f)
-https://christophergs.com/tutorials/ultimate-fastapi-tutorial-pt-12-react-js-frontend/
+- https://christophergs.com/tutorials/ultimate-fastapi-tutorial-pt-12-react-js-frontend/
 ![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/9e050b9e-625a-408a-8e70-809bad619b7f)
-https://medium.com/@publiciscommerce/serving-models-using-streamlit-fastapi-a73af8da5ade
+- https://medium.com/@publiciscommerce/serving-models-using-streamlit-fastapi-a73af8da5ade
 ![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/29be32f7-c962-4684-8c7e-76c1094bcc9f)
-https://medium.com/@goradbj/how-to-build-complete-end-to-end-ml-model-backend-restapi-using-fastapi-and-front-end-ui-using-22f64bf04476
+- https://medium.com/@goradbj/how-to-build-complete-end-to-end-ml-model-backend-restapi-using-fastapi-and-front-end-ui-using-22f64bf04476
 ![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/e0b90506-7b69-4294-873b-22a6106aae12)
 
 
