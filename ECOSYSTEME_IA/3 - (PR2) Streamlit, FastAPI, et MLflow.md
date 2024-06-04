@@ -6,7 +6,7 @@ Ce document explique comment utiliser ensemble Streamlit, FastAPI, et MLflow pou
 
 ## Architecture du projet
 
-![Architecture Diagram](https://i.imgur.com/OG3v5j4.png)
+Voir le document 1
 
 ## Description des composants
 
