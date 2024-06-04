@@ -1,7 +1,3 @@
-Je comprends mieux. Voici un document expliquant comment utiliser Streamlit, FastAPI, et MLflow ensemble dans un projet de Machine Learning, accompagné d'un diagramme pour illustrer l'architecture du projet.
-
----
-
 # Utilisation de Streamlit, FastAPI et MLflow dans un projet de Machine Learning
 
 ## Présentation
