@@ -107,6 +107,4 @@ with mlflow.start_run():
 
 En utilisant Streamlit pour le frontend, FastAPI pour le backend, et MLflow pour la gestion du cycle de vie du Machine Learning, vous pouvez créer une application de Machine Learning complète, interactive et facilement maintenable.
 
----
 
-Ce document vous donne une vue d'ensemble sur comment intégrer ces technologies dans un projet de Machine Learning. Vous pouvez ajuster et personnaliser ces composants selon les besoins spécifiques de votre projet.
