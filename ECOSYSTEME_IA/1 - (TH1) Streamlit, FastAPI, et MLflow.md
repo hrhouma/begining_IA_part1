@@ -58,3 +58,49 @@ Imaginons que vous développez une application qui aide les agriculteurs à pré
 ## Conclusion
 
 En utilisant Streamlit pour l'interface utilisateur, FastAPI pour le traitement des données, et MLflow pour la gestion et le suivi des modèles de Machine Learning, vous pouvez créer une application de Machine Learning efficace et bien organisée. C'est comme avoir une vitrine interactive, une cuisine efficace, et un laboratoire de recherche avancé travaillant ensemble pour offrir une solution complète.
+
+# Annexe :
+
+```
+---------------------------------------------------------------------
+|                      Utilisateur                                   |
+|                  (Saisie de données)                               |
+---------------------------------------------------------------------
+                                    |
+                                    v
+---------------------------------------------------------------------
+|                      Streamlit (Frontend)                         |
+|         (Interface utilisateur interactive)                        |
+---------------------------------------------------------------------
+                                    |
+                                    v
+---------------------------------------------------------------------
+|                       FastAPI (Backend)                            |
+|      (Traitement des requêtes et exécution du modèle)              |
+---------------------------------------------------------------------
+                                    |
+                                    v
+---------------------------------------------------------------------
+|                          MLflow (MLOps)                            |
+|      (Gestion et suivi des expérimentations de ML)                 |
+---------------------------------------------------------------------
+                                    ^
+                                    |
+---------------------------------------------------------------------
+|                       FastAPI (Backend)                            |
+|         (Retourne les résultats des prédictions)                   |
+---------------------------------------------------------------------
+                                    |
+                                    v
+---------------------------------------------------------------------
+|                      Streamlit (Frontend)                         |
+|         (Affichage des résultats à l'utilisateur)                  |
+---------------------------------------------------------------------
+                                    |
+                                    v
+---------------------------------------------------------------------
+|                      Utilisateur                                   |
+|                  (Visualisation des résultats)                     |
+---------------------------------------------------------------------
+```
+
