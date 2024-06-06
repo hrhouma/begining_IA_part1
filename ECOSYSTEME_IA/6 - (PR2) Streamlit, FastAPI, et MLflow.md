@@ -1,5 +1,7 @@
 # Utilisation de Streamlit, FastAPI et MLflow dans un projet de Machine Learning
 
+
+# ==> Allez ici : https://github.com/hrhouma/demo2-mlflow
 ## Présentation
 
 Ce document explique comment utiliser ensemble Streamlit, FastAPI, et MLflow pour développer une application de Machine Learning. Voici un diagramme illustrant l'architecture du projet et le rôle de chaque composant.
