@@ -1,7 +1,3 @@
-Voici la table des matières mise à jour pour accommoder le reste du document :
-
----
-
 # Transformers - Une Introduction Complète
 
 ## Table des Matières
@@ -33,7 +29,93 @@ Voici la table des matières mise à jour pour accommoder le reste du document :
 
 Les Transformers sont une architecture de réseau neuronal introduite pour la première fois par Vaswani et al. dans l'article "Attention is All You Need" en 2017. Cette architecture a révolutionné le domaine du traitement du langage naturel (NLP) et a trouvé des applications dans divers autres domaines de l'intelligence artificielle. 
 
-Contrairement aux réseaux neuronaux récurrents (RNN) et aux modèles à mémoire à long terme (LSTM) qui traitaient les séquences de données de manière séquentielle, les Transformers utilisent un mécanisme d'attention permettant de traiter les séquences en parallèle. Cette innovation a
+Contrairement aux réseaux neuronaux récurrents (RNN) et aux modèles à mémoire à long terme (LSTM) qui traitaient les séquences de données de manière séquentielle, les Transformers utilisent un mécanisme d'attention permettant de traiter les séquences en parallèle. Cette innovation a non seulement amélioré la vitesse de traitement mais a aussi permis de capturer des relations à long terme de manière plus efficace. 
+
+L'impact des Transformers ne se limite pas au NLP. Leur capacité à gérer des tâches complexes et à apprendre des représentations profondes et contextuelles a ouvert la voie à de nombreuses applications dans des domaines variés tels que la vision par ordinateur, la reconnaissance vocale, et même la bioinformatique. 
+
+En utilisant des modèles préentraînés comme BERT, GPT et T5, les chercheurs et les développeurs ont pu atteindre des performances sans précédent sur une variété de tâches linguistiques et non linguistiques. De plus, des plateformes comme Hugging Face ont rendu ces avancées accessibles à une communauté plus large, démocratisant ainsi l'utilisation de l'IA de pointe.
+
+Ce document explore en détail l'architecture des Transformers, leurs applications, les outils disponibles pour les implémenter, ainsi que des exemples concrets d'utilisation. Que vous soyez un novice en IA ou un expert cherchant à approfondir vos connaissances, ce guide vous fournira une compréhension complète de cette technologie révolutionnaire.
+
+---
+# 2 - Origine et Contexte
+
+Avant l'introduction des Transformers, les architectures récurrentes (RNN) et les réseaux à mémoire à long terme (LSTM) étaient les principaux modèles utilisés pour traiter les données séquentielles, notamment dans le domaine du traitement du langage naturel (NLP). Ces modèles excellaient dans le traitement des séquences de données en exploitant la mémoire des états précédents pour prédire les états futurs. Cependant, ils présentaient des limitations notables, principalement liées à leur incapacité à paralléliser les calculs et à leur difficulté à capturer des dépendances à long terme.
+
+Les RNN et LSTM nécessitent un traitement séquentiel des données, ce qui rend leur entraînement lent et coûteux en termes de calcul. De plus, malgré les améliorations apportées par les LSTM pour atténuer le problème de gradient qui disparaît, ils peinent toujours à retenir des informations pertinentes sur de longues séquences. Ces limitations ont motivé la recherche de nouvelles architectures capables de surmonter ces défis.
+
+Les Transformers ont été introduits pour répondre à ces problématiques. En 2017, l'article "Attention is All You Need" de Vaswani et al. a proposé une nouvelle architecture basée sur le mécanisme d'attention. Contrairement aux RNN et LSTM, les Transformers n'utilisent pas de récursivité. Au lieu de cela, ils utilisent des mécanismes d'attention qui permettent de traiter les séquences de données en parallèle, améliorant ainsi considérablement la vitesse de traitement et la capacité à gérer de longues séquences.
+
+Le mécanisme d'attention des Transformers permet à chaque élément de la séquence d'attirer l'attention sur tous les autres éléments simultanément, capturant ainsi des dépendances à longue portée plus efficacement. Cette approche a non seulement permis d'améliorer les performances des modèles de NLP, mais a également ouvert la voie à l'application des Transformers dans d'autres domaines tels que la vision par ordinateur et la modélisation de séquences complexes.
+
+## Architecture des Transformers
+L'architecture des Transformers repose principalement sur deux composants : les encodeurs et les décodeurs.
+
+### Mécanisme d'Attention
+Le mécanisme d'attention est au cœur des Transformers. Il permet au modèle de pondérer différemment les différentes parties de la séquence d'entrée, en se concentrant sur les parties les plus pertinentes pour la tâche en cours.
+
+#### Formule de l'Attention
+L'attention peut être calculée à l'aide de la formule suivante :
+
+![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/9a52c7c9-9846-4160-b881-4ed5671db958)
+
+---
+# 3 -  Encodeurs et Décodeurs
+Les Transformers utilisent une pile d'encodeurs et de décodeurs. Chaque encodeur et décodeur est composé de couches d'attention suivies de couches de feed-forward.
+
+## Encodeur
+Chaque encodeur dans le Transformer est composé de :
+1. Une couche d'attention multi-têtes.
+2. Une couche de réseau feed-forward entièrement connectée.
+
+## Décodeur
+Chaque décodeur a une structure similaire à l'encodeur, mais avec une couche d'attention supplémentaire qui reçoit des informations des couches d'encodeurs correspondantes.
+
+## Modèles Préentraînés
+Les Transformers ont été utilisés pour créer plusieurs modèles préentraînés populaires qui ont repoussé les limites du NLP.
+
+# BERT
+
+BERT (Bidirectional Encoder Representations from Transformers) est un modèle de Transformer bidirectionnel préentraîné sur de vastes corpus de texte, permettant de capturer les relations contextuelles dans les deux sens. Introduit par Devlin et al. en 2018, BERT a révolutionné le traitement du langage naturel (NLP) en améliorant significativement les performances sur diverses tâches linguistiques.
+
+# Architecture de BERT
+BERT utilise uniquement l'encodeur de l'architecture Transformer. Contrairement aux modèles unidirectionnels comme GPT, qui génèrent du texte mot par mot dans une seule direction, BERT est bidirectionnel. Cela signifie qu'il considère le contexte à la fois à gauche et à droite de chaque mot dans une phrase, offrant une
+
+Voici la table des matières mise à jour :
+
+---
+
+# Transformers - Une Introduction Complète
+
+## Table des Matières
+1. [Introduction](#1---introduction)
+2. [Origine et Contexte](#2---origine-et-contexte)
+3. [Architecture des Transformers](#3---architecture-des-transformers)
+   - [Mécanisme d'Attention](#mécanisme-dattention)
+   - [Encodeurs et Décodeurs](#encodeurs-et-décodeurs)
+4. [Modèles Préentraînés](#4---modèles-préentraînés)
+   - [BERT](#bert)
+   - [GPT](#gpt)
+   - [T5](#t5)
+5. [Applications des Transformers](#5---applications-des-transformers)
+   - [Traitement du Langage Naturel (NLP)](#traitement-du-langage-naturel-nlp)
+   - [Vision par Ordinateur](#vision-par-ordinateur)
+   - [Autres Applications](#autres-applications)
+6. [Bibliothèques et Outils](#6---bibliothèques-et-outils)
+   - [Hugging Face](#hugging-face)
+   - [TensorFlow et PyTorch](#tensorflow-et-pytorch)
+7. [Exemples de Code](#7---exemples-de-code)
+   - [Installation](#installation)
+   - [Utilisation de base](#utilisation-de-base)
+8. [Conclusion](#8---conclusion)
+9. [Ressources Supplémentaires](#9---ressources-supplémentaires)
+10. [Annexe 1 : Le Mécanisme d'Attention - Exemple Vulgarisé](#10---annexe-1--le-mécanisme-dattention---exemple-vulgarisé)
+11. [Annexe 2 : Exemple Vulgarisé du Mécanisme d'Attention](#11---annexe-2--exemple-vulgarisé-du-mécanisme-dattention)
+
+
+
+---
+
 
 # 1 - Introduction
 
