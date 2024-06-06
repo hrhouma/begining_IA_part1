@@ -141,6 +141,7 @@ source mlflowenv1/bin/activate
 ```bash
 cd demo1-mlflow
 source mlflowenv1/bin/activate
+python3 train.py
 mlflow ui
 ```
 - localhost:8501
