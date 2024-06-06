@@ -37,12 +37,9 @@ Le mécanisme d'attention est au cœur des Transformers. Il permet au modèle de
 
 #### Formule de l'Attention
 L'attention peut être calculée à l'aide de la formule suivante :
-\[ \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V \]
-où :
-- \( Q \) est la matrice des requêtes
-- \( K \) est la matrice des clés
-- \( V \) est la matrice des valeurs
-- \( d_k \) est la dimension des clés
+
+![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/9a52c7c9-9846-4160-b881-4ed5671db958)
+
 
 ### Encodeurs et Décodeurs
 Les Transformers utilisent une pile d'encodeurs et de décodeurs. Chaque encodeur et décodeur est composé de couches d'attention suivies de couches de feed-forward.
