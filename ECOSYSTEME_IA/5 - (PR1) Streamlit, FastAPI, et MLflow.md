@@ -88,6 +88,7 @@ with mlflow.start_run():
 
 Lancer l'interface utilisateur MLflow avec :
 ```sh
+python3 train.py
 mlflow ui
 ```
 
