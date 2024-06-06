@@ -123,21 +123,30 @@ source mlflowenv1/bin/activate
 pip install -r requirements.txt
 ```
 
-## Utilisation
+# Utilisation (3 terminaux)
 
-1. **Lancer Streamlit** :
-    ```sh
-    streamlit run app.py
-    ```
-2. **Lancer FastAPI** :
-    ```sh
-    uvicorn main:app --reload
-    ```
-3. **Lancer MLflow** :
-    ```sh
-    mlflow ui
-    ```
+```bash
+cd demo1-mlflow
+source mlflowenv1/bin/activate
+streamlit run app.py
+```
 
+```bash
+cd demo1-mlflow
+source mlflowenv1/bin/activate
+ uvicorn main:app --reload
+```
+
+```bash
+cd demo1-mlflow
+source mlflowenv1/bin/activate
+mlflow ui
+```
+- localhost:8501
+- localhost:8000 et localhost:8000/docs
+- localhost:5000
+
+# Important : c'est un projet de base, si vous voulez aller loin, il faut aller au projet suivant !!!!
 ## Conclusion
 
 Ce projet montre comment intégrer Streamlit, FastAPI, et MLflow pour créer une application de Machine Learning complète, de la création d'une interface utilisateur interactive à la gestion du cycle de vie du modèle. En utilisant ces outils ensemble, vous pouvez développer, déployer et gérer efficacement vos projets de Machine Learning.
@@ -307,3 +316,6 @@ L'architecture du projet pour intégrer Streamlit, FastAPI, et MLflow dans une a
 
 Cette architecture vous permet de développer une application de Machine Learning complète et intégrée, avec un frontend interactif, un backend performant et une plateforme robuste pour le suivi et la gestion des modèles.
 
+# Exercice :
+
+- Dockerisez ce projet !
