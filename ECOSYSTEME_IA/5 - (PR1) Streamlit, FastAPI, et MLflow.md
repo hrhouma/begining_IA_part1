@@ -97,13 +97,29 @@ mlflow ui
 2. **Backend (FastAPI)** : Serveur pour gérer les requêtes et répondre aux appels de l'interface utilisateur.
 3. **MLOps (MLflow)** : Gestion et suivi des expérimentations, modèles et déploiements.
 
-## Installation
+# IMPORTANT -  Installation et prérequis
 
-Cloner le repository et installer les dépendances.
+### Sur Windows
 
-```sh
+```bash
+py -m pip install virtualenv
 git clone https://github.com/hrhouma/demo1-mlflow.git
-cd projet-ml
+cd demo1-mlflow
+py -m venv mlflowenv1
+.\mlflowenv1\Scripts\activate
+pip install -r requirements.txt
+```
+
+### Sur macOS et Linux
+
+```bash
+sudo apt update
+sudo apt install python3 python3-pip
+pip3 install virtualenv
+git clone https://github.com/hrhouma/demo1-mlflow.git
+cd demo1-mlflow
+python3 -m venv mlflowenv1
+source mlflowenv1/bin/activate
 pip install -r requirements.txt
 ```
 
