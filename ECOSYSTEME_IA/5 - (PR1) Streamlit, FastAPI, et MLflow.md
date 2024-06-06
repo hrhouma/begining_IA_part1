@@ -126,6 +126,51 @@ pip install -r requirements.txt
 
 Ce projet montre comment intégrer Streamlit, FastAPI, et MLflow pour créer une application de Machine Learning complète, de la création d'une interface utilisateur interactive à la gestion du cycle de vie du modèle. En utilisant ces outils ensemble, vous pouvez développer, déployer et gérer efficacement vos projets de Machine Learning.
 
+# Annexe 0 - configurer et utiliser l'environnement virtuel nommé `mlflowenv1` pour votre projet :
+
+### Sur Windows
+
+1. **Création de l'environnement virtuel** :
+   ```bash
+   python -m venv mlflowenv1
+   ```
+
+2. **Activation de l'environnement virtuel** :
+   ```bash
+   .\mlflowenv1\Scripts\activate
+   ```
+
+### Sur macOS et Linux
+
+1. **Création de l'environnement virtuel** :
+   ```bash
+   python3 -m venv mlflowenv1
+   ```
+
+2. **Activation de l'environnement virtuel** :
+   ```bash
+   source mlflowenv1/bin/activate
+   ```
+
+### Installation des dépendances
+
+Après activation de l'environnement virtuel, installez les dépendances nécessaires :
+
+```bash
+pip install -r requirements.txt
+```
+
+### Désactivation de l'environnement virtuel
+
+Pour désactiver l'environnement virtuel lorsque vous avez terminé :
+
+```bash
+deactivate
+```
+
+Ces commandes vous aideront à configurer un environnement isolé pour développer votre projet de Machine Learning en utilisant Streamlit, FastAPI et MLflow.
+
+
 # Annexe 1 - mise en pratique 
 
 
