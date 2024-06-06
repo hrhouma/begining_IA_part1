@@ -1,7 +1,7 @@
 # Transformers - Une Introduction Complète
 
 ## Table des Matières
-1. [Introduction](#introduction)
+1. [Introduction](# 1 - Introduction)
 2. [Origine et Contexte](#origine-et-contexte)
 3. [Architecture des Transformers](#architecture-des-transformers)
    - [Mécanisme d'Attention](#mécanisme-dattention)
