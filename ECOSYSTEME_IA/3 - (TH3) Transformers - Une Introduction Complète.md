@@ -1,9 +1,9 @@
 # Transformers - Une Introduction Complète
 
 ## Table des Matières
-1. [Introduction](#1-Introduction)
-2. [Origine et Contexte](#origine-et-contexte)
-3. [Architecture des Transformers](#architecture-des-transformers)
+1. [Introduction](#1-introduction)
+2. [Origine et Contexte](#2-origine-et-contexte)
+3. [Architecture des Transformers](#3-architecture-des-transformers)
    - [Mécanisme d'Attention](#mécanisme-dattention)
    - [Encodeurs et Décodeurs](#encodeurs-et-décodeurs)
 4. [Modèles Préentraînés](#modèles-préentraînés)
@@ -22,6 +22,10 @@
    - [Utilisation de base](#utilisation-de-base)
 8. [Conclusion](#conclusion)
 9. [Ressources Supplémentaires](#ressources-supplémentaires)
+
+# 1 - Introduction
+
+Les Transformers sont une architecture de réseau neuronal introduite pour la première fois par Vaswani et al. dans l'article "Attention is All You Need" en 2017. Cette architecture a révolutionné le domaine du traitement du langage naturel (NLP) et a
 
 # 1 - Introduction
 
