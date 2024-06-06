@@ -102,7 +102,7 @@ mlflow ui
 Cloner le repository et installer les dépendances.
 
 ```sh
-git clone https://github.com/votre-repository/projet-ml.git
+git clone https://github.com/hrhouma/demo1-mlflow.git
 cd projet-ml
 pip install -r requirements.txt
 ```
