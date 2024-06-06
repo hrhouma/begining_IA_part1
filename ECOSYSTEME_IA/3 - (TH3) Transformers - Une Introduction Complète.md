@@ -35,6 +35,7 @@ En utilisant des modèles préentraînés comme BERT, GPT et T5, les chercheurs 
 
 Ce document explore en détail l'architecture des Transformers, leurs applications, les outils disponibles pour les implémenter, ainsi que des exemples concrets d'utilisation. Que vous soyez un novice en IA ou un expert cherchant à approfondir vos connaissances, ce guide vous fournira une compréhension complète de cette technologie révolutionnaire.
 
+---
 # 2 - Origine et Contexte
 
 Avant l'introduction des Transformers, les architectures récurrentes (RNN) et les réseaux à mémoire à long terme (LSTM) étaient les principaux modèles utilisés pour traiter les données séquentielles, notamment dans le domaine du traitement du langage naturel (NLP). Ces modèles excellaient dans le traitement des séquences de données en exploitant la mémoire des états précédents pour prédire les états futurs. Cependant, ils présentaient des limitations notables, principalement liées à leur incapacité à paralléliser les calculs et à leur difficulté à capturer des dépendances à long terme.
@@ -56,89 +57,89 @@ L'attention peut être calculée à l'aide de la formule suivante :
 
 ![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/9a52c7c9-9846-4160-b881-4ed5671db958)
 
-
+---
 # 3 -  Encodeurs et Décodeurs
 Les Transformers utilisent une pile d'encodeurs et de décodeurs. Chaque encodeur et décodeur est composé de couches d'attention suivies de couches de feed-forward.
 
-#### Encodeur
+## Encodeur
 Chaque encodeur dans le Transformer est composé de :
 1. Une couche d'attention multi-têtes.
 2. Une couche de réseau feed-forward entièrement connectée.
 
-#### Décodeur
+## Décodeur
 Chaque décodeur a une structure similaire à l'encodeur, mais avec une couche d'attention supplémentaire qui reçoit des informations des couches d'encodeurs correspondantes.
 
 ## Modèles Préentraînés
 Les Transformers ont été utilisés pour créer plusieurs modèles préentraînés populaires qui ont repoussé les limites du NLP.
 
-### BERT
+# BERT
 
 BERT (Bidirectional Encoder Representations from Transformers) est un modèle de Transformer bidirectionnel préentraîné sur de vastes corpus de texte, permettant de capturer les relations contextuelles dans les deux sens. Introduit par Devlin et al. en 2018, BERT a révolutionné le traitement du langage naturel (NLP) en améliorant significativement les performances sur diverses tâches linguistiques.
 
-### Architecture de BERT
+# Architecture de BERT
 BERT utilise uniquement l'encodeur de l'architecture Transformer. Contrairement aux modèles unidirectionnels comme GPT, qui génèrent du texte mot par mot dans une seule direction, BERT est bidirectionnel. Cela signifie qu'il considère le contexte à la fois à gauche et à droite de chaque mot dans une phrase, offrant une compréhension plus riche et complète.
 
-### Préentraînement
+# Préentraînement
 BERT est préentraîné sur deux tâches principales :
 1. **Modélisation de Langage Masqué (MLM)** : Une partie des mots de la phrase est masquée, et le modèle doit prédire les mots masqués en se basant sur le contexte environnant. Cela aide BERT à comprendre les relations contextuelles bidirectionnelles.
 2. **Prédiction de la Phrase Suivante (NSP)** : Le modèle est entraîné à prédire si une phrase donnée est susceptible de suivre une autre phrase. Cela aide BERT à mieux comprendre les relations entre les phrases.
 
-### Finetuning
+# Finetuning
 Après le préentraînement, BERT peut être affiné (finetuned) sur des tâches spécifiques en ajoutant simplement une couche de sortie appropriée. Par exemple, pour la classification de texte, une couche de classification peut être ajoutée au sommet de BERT, et le modèle entier est ensuite affiné sur le corpus spécifique à la tâche.
 
-### Applications de BERT
+# Applications de BERT
 BERT a été utilisé avec succès pour améliorer les performances sur une variété de tâches NLP, telles que :
 - **Classification de Texte** : Sentiment analysis, détection de spam, etc.
 - **Réponse à des Questions** : Extraction de réponses précises à partir de passages de texte.
 - **Analyse Sémantique** : Détection de similarités et relations entre phrases.
 - **Traduction Automatique** : Amélioration de la qualité des traductions en capturant des contextes plus riches.
 
-### Impact et Avantages
+# Impact et Avantages
 L'introduction de BERT a marqué un tournant dans le NLP. Ses capacités bidirectionnelles et sa compréhension contextuelle profonde permettent d'obtenir des performances de pointe sur de nombreux benchmarks NLP. De plus, la capacité de BERT à être finetuné pour des tâches spécifiques en fait un modèle extrêmement versatile et puissant pour diverses applications linguistiques.
 
 En conclusion, BERT a établi une nouvelle norme pour les modèles de traitement du langage naturel, offrant des améliorations significatives en précision et en efficacité pour une multitude de tâches NLP.
-### GPT
+# GPT
 
 GPT (Generative Pre-trained Transformer) est un modèle de Transformer autoregressif développé par OpenAI, connu pour sa capacité à générer du texte de manière cohérente et contextuellement pertinente. Introduit pour la première fois en 2018, GPT a rapidement gagné en popularité grâce à ses performances impressionnantes dans la génération de texte naturel.
 
-### Architecture de GPT
+# Architecture de GPT
 Contrairement à BERT, qui utilise une architecture bidirectionnelle, GPT est basé sur un modèle autoregressif unidirectionnel. Cela signifie qu'il génère chaque mot de la séquence de texte un à un, en prenant en compte uniquement les mots précédents. Cette approche permet à GPT de prédire le mot suivant dans une phrase de manière contextuellement correcte.
 
-### Préentraînement
+# Préentraînement
 GPT est préentraîné sur une grande quantité de texte provenant d'Internet. Le préentraînement repose sur la tâche de modélisation de langage, où le modèle apprend à prédire le mot suivant dans une séquence donnée. Cette méthode d'apprentissage permet à GPT de capturer une riche compréhension contextuelle des données textuelles.
 
-### Fine-tuning
+# Fine-tuning
 Après le préentraînement, GPT peut être affiné (fine-tuned) pour des tâches spécifiques en utilisant des ensembles de données plus petits et spécifiques à ces tâches. Par exemple, GPT peut être adapté pour des tâches comme la traduction, la rédaction de résumés, ou même la génération de code.
 
-### Versions de GPT
+# Versions de GPT
 GPT a évolué à travers plusieurs versions, chacune apportant des améliorations significatives :
 - **GPT-1** : La première version introduite en 2018, montrant le potentiel de l'architecture.
 - **GPT-2** : Lancée en 2019, cette version a attiré une attention considérable grâce à sa capacité à générer du texte de haute qualité et à sa taille beaucoup plus grande (1,5 milliard de paramètres).
 - **GPT-3** : Lancée en 2020, GPT-3 est l'une des plus grandes et des plus puissantes versions avec 175 milliards de paramètres, offrant des performances de pointe dans diverses tâches de génération de texte.
 
-### Applications de GPT
+# Applications de GPT
 Les capacités de génération de texte de GPT ont conduit à son utilisation dans une variété d'applications, notamment :
 - **Assistants Virtuels** : Répondre à des questions et interagir avec les utilisateurs de manière naturelle.
 - **Création de Contenu** : Rédiger des articles, des scripts, et des descriptions de produits.
 - **Traduction Automatique** : Traduire du texte d'une langue à une autre.
 - **Aide à la Programmation** : Générer et compléter du code source.
 
-### Impact et Avantages
+# Impact et Avantages
 GPT a transformé le paysage du traitement du langage naturel en offrant une capacité sans précédent à générer du texte naturel de manière fluide et cohérente. Son architecture autoregressive et sa capacité à être finement ajusté pour des tâches spécifiques en font un outil incroyablement versatile et puissant. GPT a non seulement repoussé les limites de ce que les modèles de génération de texte peuvent accomplir, mais il a également ouvert de nouvelles possibilités dans divers domaines de l'IA et de l'automatisation du langage.
-### T5
+# T5
 
 T5 (Text-to-Text Transfer Transformer) est un modèle de Transformer développé par Google Research, qui traite toutes les tâches de traitement du langage naturel (NLP) sous une même forme de conversion texte-à-texte, ce qui le rend très flexible et efficace pour une variété de tâches linguistiques. Introduit dans l'article "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer" en 2019, T5 a redéfini l'approche des modèles de NLP en unifiant la façon dont les tâches sont formulées.
 
-### Architecture de T5
+# Architecture de T5
 L'architecture de T5 est basée sur le modèle Transformer standard, composé d'encodeurs et de décodeurs. Ce qui distingue T5, c'est sa capacité à convertir chaque tâche NLP en une tâche de transformation texte-à-texte. Par exemple, pour la traduction, l'entrée serait "translate English to French: The cat is on the mat", et la sortie serait "Le chat est sur le tapis".
 
-### Préentraînement
+# Préentraînement
 T5 est préentraîné sur un vaste corpus de données textuelles, incluant le corpus C4 (Colossal Clean Crawled Corpus), en utilisant une tâche de corruption de texte appelée "span corruption". Dans cette tâche, des segments de texte sont masqués et le modèle apprend à les reconstruire, ce qui aide à capturer des relations contextuelles riches.
 
-### Fine-tuning
+# Fine-tuning
 Après le préentraînement, T5 peut être ajusté pour des tâches spécifiques en reformulant chaque tâche comme une tâche texte-à-texte. Par exemple, pour la classification de texte, l'entrée pourrait être "classify sentiment: I love this product!", et la sortie serait "positive". Cette approche unifiée simplifie grandement le processus de fine-tuning et permet au modèle de généraliser mieux sur différentes tâches.
 
-### Applications de T5
+# Applications de T5
 Grâce à son approche flexible, T5 peut être appliqué à une large gamme de tâches NLP, notamment :
 - **Traduction Automatique** : Traduire du texte d'une langue à une autre.
 - **Résumé de Texte** : Condenser de longs documents en résumés concis.
@@ -146,40 +147,41 @@ Grâce à son approche flexible, T5 peut être appliqué à une large gamme de t
 - **Classification de Texte** : Détecter le sentiment, les sujets, ou d'autres caractéristiques du texte.
 - **Complétion de Texte** : Prévoir et compléter des phrases ou des paragraphes.
 
-### Impact et Avantages
+# Impact et Avantages
 L'unification des tâches NLP sous une seule forme texte-à-texte rend T5 extrêmement flexible et puissant. Cette approche permet de simplifier le processus de développement et d'adaptation des modèles pour de nouvelles tâches, en réduisant le besoin de modifications architecturales spécifiques à chaque tâche. T5 a montré des performances de pointe sur de nombreux benchmarks NLP, illustrant l'efficacité de cette approche unifiée.
 
-### Conclusion
-En conclusion, T5 a ouvert de nouvelles voies dans le traitement du langage naturel en offrant une solution unifiée pour diverses tâches linguistiques. Sa capacité à reformuler chaque tâche en une transformation texte-à-texte simplifie le processus de fine-tuning et améliore la généralisation du modèle, le rendant adapté à une multitude d'applications NLP.
-## Applications des Transformers
+- En conclusion, T5 a ouvert de nouvelles voies dans le traitement du langage naturel en offrant une solution unifiée pour diverses tâches linguistiques. Sa capacité à reformuler chaque tâche en une transformation texte-à-texte simplifie le processus de fine-tuning et améliore la généralisation du modèle, le rendant adapté à une multitude d'applications NLP.
+
+---
+# 4 - Applications des Transformers
 Les Transformers ont de nombreuses applications dans divers domaines :
 
-### Traitement du Langage Naturel (NLP)
+# Traitement du Langage Naturel (NLP)
 - Traduction automatique
 - Résumé de texte
 - Réponse à des questions
 - Analyse des sentiments
 
-### Vision par Ordinateur
+# Vision par Ordinateur
 - Classification d'images
 - Détection d'objets
 - Segmentation d'images
 
-### Autres Applications
+# Autres Applications
 - Modélisation de protéines
 - Prédiction des structures chimiques
 - Jeux et simulations
 
-## Bibliothèques et Outils
+# Bibliothèques et Outils
 Il existe plusieurs bibliothèques et outils pour travailler avec les Transformers :
 
-### Hugging Face
+# Hugging Face
 Hugging Face propose la bibliothèque `transformers`, qui permet d'accéder facilement à une variété de modèles préentraînés et de les intégrer dans des applications.
 
-### TensorFlow et PyTorch
+# TensorFlow et PyTorch
 Les frameworks populaires TensorFlow et PyTorch prennent en charge les Transformers et offrent des outils pour construire et entraîner ces modèles.
 
-## Exemples de Code
+# Exemples de Code
 
 ### Installation
 Pour installer la bibliothèque `transformers` de Hugging Face :
@@ -187,7 +189,7 @@ Pour installer la bibliothèque `transformers` de Hugging Face :
 pip install transformers
 ```
 
-### Utilisation de base
+# Utilisation de base
 Voici un exemple simple d'utilisation de BERT pour l'inférence :
 ```python
 from transformers import BertTokenizer, BertModel
@@ -208,7 +210,7 @@ print(last_hidden_states)
 ```
 
 
-# 4 - Tableau comparatif: BERT, GPT-3, T5
+# 5 - Tableau comparatif: BERT, GPT-3, T5
 
 | Modèle       | Architecte      | Année de Publication | Préentraînement                    | Tâches Principales                     | Avantages                                 | Limitations                                      |
 |--------------|------------------|----------------------|------------------------------------|----------------------------------------|-------------------------------------------|--------------------------------------------------|
@@ -217,7 +219,7 @@ print(last_hidden_states)
 | **T5**       | Google Research  | 2019                 | Text-to-Text, Span Corruption      | Traduction, Résumé, Classification     | Flexibilité grâce à l'approche texte-à-texte| Complexité de mise en œuvre pour certaines tâches|
 | **DistilBERT**| Hugging Face    | 2019                 | Distillation de BERT               | Classification, Q&A, NER               | Plus rapide et léger que BERT              | Légère perte de précision par rapport à BERT      |
 
-### Description des Modèles
+# Description des Modèles
 
 1. **BERT (Bidirectional Encoder Representations from Transformers)**
    - **Architecte** : Google Research
@@ -251,10 +253,10 @@ print(last_hidden_states)
    - **Avantages** : Plus rapide et plus léger que BERT, réduit les besoins en ressources de calcul tout en conservant une grande partie des performances.
    - **Limitations** : Légère perte de précision par rapport à BERT, moins adapté pour des tâches nécessitant une compréhension contextuelle très fine.
 
-### Conclusion
 
-Chaque modèle Transformer a ses propres forces et faiblesses, et le choix du modèle dépend des exigences spécifiques de la tâche et des ressources disponibles. BERT est idéal pour les tâches de compréhension contextuelle, GPT-3 excelle en génération de texte, T5 offre une flexibilité exceptionnelle pour diverses tâches linguistiques, et DistilBERT est une alternative plus légère et rapide pour des applications nécessitant moins de ressources de calcul.
+- Chaque modèle Transformer a ses propres forces et faiblesses, et le choix du modèle dépend des exigences spécifiques de la tâche et des ressources disponibles. BERT est idéal pour les tâches de compréhension contextuelle, GPT-3 excelle en génération de texte, T5 offre une flexibilité exceptionnelle pour diverses tâches linguistiques, et DistilBERT est une alternative plus légère et rapide pour des applications nécessitant moins de ressources de calcul.
 
+---
 
 # 6 - Tranformers vs Transfer learning ?
 
@@ -291,7 +293,7 @@ En résumé, le transfer learning est une technique qui peut être appliquée à
 
 
 
-# 5  Conclusion générale
+# 7 -  Conclusion générale
 Les Transformers ont révolutionné le domaine de l'intelligence artificielle, en particulier le traitement du langage naturel. Leur architecture efficace et polyvalente continue de trouver des applications dans divers domaines, et les outils comme Hugging Face rendent ces technologies accessibles à tous.
 
 ## Ressources Supplémentaires
@@ -300,13 +302,8 @@ Les Transformers ont révolutionné le domaine de l'intelligence artificielle, e
 - [Tutoriels TensorFlow sur les Transformers](https://www.tensorflow.org/tutorials/text/transformer)
 - [Tutoriels PyTorch sur les Transformers](https://pytorch.org/tutorials/beginner/transformer_tutorial.html)
 
-# Annexe 1 : 
+# 8 - Annexe 1 : Le Mécanisme d'Attention - Exemple Vulgarisé
 
-### Le Mécanisme d'Attention - Exemple Vulgarisé
-
-## Mécanisme d'Attention - Explication Vulgarisée pour Débutant
-
-### Introduction
 
 Le mécanisme d'attention est une technologie clé utilisée dans les modèles de réseau neuronal modernes, comme les Transformers. Il a révolutionné le traitement du langage naturel (NLP) et d'autres domaines de l'intelligence artificielle. Mais qu'est-ce que cela signifie vraiment ? Imaginez que vous lisez un livre et que vous devez vous souvenir de certaines informations tout en les reliant à d'autres parties du texte. Le mécanisme d'attention aide les modèles à faire quelque chose de similaire.
 
@@ -331,10 +328,8 @@ $$
 \text{Attention}(Q, K, V) = \text{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
 $$
 
-- \( Q \) (requêtes) : Ce que nous voulons savoir sur un mot.
-- \( K \) (clés) : Les informations contextuelles des autres mots.
-- \( V \) (valeurs) : Les valeurs que nous utilisons pour la pondération.
-- \( d_k \) : Une échelle pour normaliser les scores.
+![image](https://github.com/hrhouma/begining_IA_part1/assets/10111526/cf73b1e9-62cb-45e0-9cf3-d8b7b46509bb)
+
 
 ### Exemple Simple
 
@@ -344,7 +339,7 @@ Imaginez que vous lisez une phrase : "Le chat est sur le tapis." Si vous essayez
 
 Le mécanisme d'attention permet aux modèles de se concentrer sur les parties les plus importantes des séquences de données, améliorant ainsi la compréhension contextuelle et la performance globale. En rendant possible le traitement parallèle et en permettant de capturer des relations à longue distance, l'attention est une innovation clé qui sous-tend de nombreux modèles avancés d'IA, comme les Transformers.
 
-# Annexe 2
+# 9 - Annexe 2
 
 ### Le Mécanisme d'Attention - Exemple Vulgarisé
 
