@@ -1,31 +1,39 @@
+Voici la table des matières mise à jour pour accommoder le reste du document :
+
+---
+
 # Transformers - Une Introduction Complète
 
 ## Table des Matières
-1. [Introduction](#1-introduction)
-2. [Origine et Contexte](#2-origine-et-contexte)
-3. [Architecture des Transformers](#3-architecture-des-transformers)
+1. [Introduction](#1---introduction)
+2. [Origine et Contexte](#2---origine-et-contexte)
+3. [Architecture des Transformers](#3---architecture-des-transformers)
    - [Mécanisme d'Attention](#mécanisme-dattention)
    - [Encodeurs et Décodeurs](#encodeurs-et-décodeurs)
-4. [Modèles Préentraînés](#modèles-préentraînés)
+4. [Modèles Préentraînés](#4---modèles-préentraînés)
    - [BERT](#bert)
    - [GPT](#gpt)
    - [T5](#t5)
-5. [Applications des Transformers](#applications-des-transformers)
+5. [Applications des Transformers](#5---applications-des-transformers)
    - [Traitement du Langage Naturel (NLP)](#traitement-du-langage-naturel-nlp)
    - [Vision par Ordinateur](#vision-par-ordinateur)
    - [Autres Applications](#autres-applications)
-6. [Bibliothèques et Outils](#bibliothèques-et-outils)
+6. [Bibliothèques et Outils](#6---bibliothèques-et-outils)
    - [Hugging Face](#hugging-face)
    - [TensorFlow et PyTorch](#tensorflow-et-pytorch)
-7. [Exemples de Code](#exemples-de-code)
+7. [Exemples de Code](#7---exemples-de-code)
    - [Installation](#installation)
    - [Utilisation de base](#utilisation-de-base)
-8. [Conclusion](#conclusion)
-9. [Ressources Supplémentaires](#ressources-supplémentaires)
+8. [Conclusion](#8---conclusion)
+9. [Ressources Supplémentaires](#9---ressources-supplémentaires)
+10. [Annexe 1 : Le Mécanisme d'Attention - Exemple Vulgarisé](#10---annexe-1--le-mécanisme-dattention---exemple-vulgarisé)
+11. [Annexe 2 : Exemple Vulgarisé du Mécanisme d'Attention](#11---annexe-2--exemple-vulgarisé-du-mécanisme-dattention)
 
 # 1 - Introduction
 
-Les Transformers sont une architecture de réseau neuronal introduite pour la première fois par Vaswani et al. dans l'article "Attention is All You Need" en 2017. Cette architecture a révolutionné le domaine du traitement du langage naturel (NLP) et a
+Les Transformers sont une architecture de réseau neuronal introduite pour la première fois par Vaswani et al. dans l'article "Attention is All You Need" en 2017. Cette architecture a révolutionné le domaine du traitement du langage naturel (NLP) et a trouvé des applications dans divers autres domaines de l'intelligence artificielle. 
+
+Contrairement aux réseaux neuronaux récurrents (RNN) et aux modèles à mémoire à long terme (LSTM) qui traitaient les séquences de données de manière séquentielle, les Transformers utilisent un mécanisme d'attention permettant de traiter les séquences en parallèle. Cette innovation a
 
 # 1 - Introduction
 
