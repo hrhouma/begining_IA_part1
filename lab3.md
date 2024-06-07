@@ -9,10 +9,10 @@ Vous devez réaliser un projet de Machine Learning intégrant **Streamlit** pour
 
 #### Critères d'évaluation
 
-1. **Utilisation de Streamlit pour le frontend (25 points)**
-2. **Utilisation de FastAPI pour le backend (25 points)**
-3. **Utilisation de MLflow pour la gestion des modèles (25 points)**
-4. **Utilisation de Docker-compose pour le déploiement (25 points)**
+1. *Utilisation de Streamlit pour le frontend (25 points)*
+2. *Utilisation de FastAPI pour le backend (25 points)*
+3. *Utilisation de MLflow pour la gestion des modèles (25 points)*
+4. *Utilisation de Docker-compose pour le déploiement (25 points)*
 
 #### Remarques
 
