@@ -1,3 +1,5 @@
+# Théorie : 
+- https://levelup.gitconnected.com/mlops-mastering-mlflow-unlocking-efficient-model-management-and-experiment-tracking-d9d0e71cc697 
 # Installations :
 
 - https://medium.com/data-folks-indonesia/how-to-setup-mlflow-in-ubuntu-d79ce47bee2e
