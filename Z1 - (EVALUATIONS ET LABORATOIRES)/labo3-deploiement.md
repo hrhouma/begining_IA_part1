@@ -37,3 +37,8 @@ Vous devez réaliser un projet de Machine Learning intégrant **Streamlit** pour
 - La date limite de remise du projet est le 15 juin 2024.
 
 Bon courage et soyez créatifs !
+
+# Référnces pour vous aider : 
+- https://github.com/hrhouma/begining_IA_part1/blob/main/ECOSYSTEME_IA/5%20-%20(PR1)%20Streamlit%2C%20FastAPI%2C%20et%20MLflow.md
+- https://github.com/hrhouma/begining_IA_part1/blob/main/ECOSYSTEME_IA/6%20-%20(PR2)%20Streamlit%2C%20FastAPI%2C%20et%20MLflow.md
+- https://drive.google.com/drive/u/6/folders/1Tx5ED0jBag0wAJVDe3pgL-SgTAzk7e3o
