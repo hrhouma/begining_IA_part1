@@ -2,10 +2,10 @@
 
 Vous devez réaliser un projet de Machine Learning intégrant **Streamlit** pour le frontend, **FastAPI** pour le backend, **MLflow** pour la gestion des modèles, et **Docker-compose** pour le déploiement. Vous êtes libres de choisir le dataset et le type de projet (classification, régression, clustering, etc.) selon vos intérêts, mais vous devez respecter les critères suivants :
 
-1. **Utiliser Streamlit pour le frontend**
-2. **Utiliser FastAPI pour le backend**
-3. **Utiliser MLflow pour la gestion des expérimentations et des modèles**
-4. **Utiliser Docker-compose pour le déploiement**
+1. *Utiliser Streamlit pour le frontend*
+2. *Utiliser FastAPI pour le backend*
+3. *Utiliser MLflow pour la gestion des expérimentations et des modèles*
+4. *Utiliser Docker-compose pour le déploiement*
 
 #### Critères d'évaluation
 
@@ -20,7 +20,7 @@ Vous devez réaliser un projet de Machine Learning intégrant **Streamlit** pour
 - **Innovation et créativité** : Des points bonus (jusqu'à 30 points) peuvent être attribués pour l'innovation et la créativité démontrées dans le projet.
 
 
-### Total : 100 points (+10 points bonus)
+### Total : 100 points 
 
 ### Livrables attendus
 
