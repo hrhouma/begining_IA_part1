@@ -508,25 +508,34 @@
     - C. /docs
 
 40. Quelle ligne de code correcte devez-vous utiliser pour définir une route GET pour `/predict` qui retourne une prédiction de modèle dans une application FastAPI ? (2 Points)
-    - D. ```from fastapi import FastAPI
+    - D.
+    ```python
+    from fastapi import FastAPI
             app = FastAPI()
             @app.get("/predict")
             async def predict():
-                return {"prediction": "value"}```
+                return {"prediction": "value"}
+    ```
 
 41. Quelle ligne de code correcte devez-vous utiliser pour définir une route GET pour `/predict` qui retourne une prédiction de modèle dans une application FastAPI ? (2 Points)
-    - D. ```from fastapi import FastAPI
+    - D.
+    ```python
+    from fastapi import FastAPI
             app = FastAPI()
             @app.get("/predict")
             async def predict():
-                return {"prediction": "value"}```
+                return {"prediction": "value"}
+    ```
 
 42. Quelle ligne de code correcte devez-vous utiliser pour définir une route GET pour `/predict` qui retourne une prédiction de modèle dans une application FastAPI ? (2 Points)
-    - D. ```from fastapi import FastAPI
+    - D.
+    ```python
+    from fastapi import FastAPI
             app = FastAPI()
             @app.get("/predict")
             async def predict():
-                return {"prediction": "value"}```
+                return {"prediction": "value"}
+    ```
 
 43. Quelle bibliothèque devez-vous importer pour gérer les requêtes de modèles dans FastAPI ? (2 Points)
     - D. import pydantic
@@ -535,11 +544,14 @@
     - B. POST
 
 45. Comment pouvez-vous définir un modèle de requête dans FastAPI ? (2 Points)
-    - C. ```from fastapi import FastAPI
+    - C.
+    ```python
+    from fastapi import FastAPI
             from pydantic import BaseModel
             class PredictionRequest(BaseModel):
                 feature1: float
-                feature2: float```
+                feature2: float
+    ```
 
 46. Comment inclure une documentation automatique pour votre API FastAPI ? (2 Points)
     - B. Utiliser Swagger UI intégré.
@@ -551,11 +563,13 @@
     - C. Uvicorn
 
 49. Comment définir une route qui accepte un modèle de requête en JSON pour faire une prédiction ? (2 Points)
-    - B. ```@app
-
-.post("/predict")
+    - B.
+   
+```python
+@app.post("/predict")
             async def predict(data: PredictionRequest):
-                return {"prediction": "value"}```
+                return {"prediction": "value"}
+```
 
 50. Comment démarrez-vous un serveur FastAPI en mode production ? (2 Points)
     - D. uvicorn app:app --workers 4 --host 0.0.0.0 --port 8000
