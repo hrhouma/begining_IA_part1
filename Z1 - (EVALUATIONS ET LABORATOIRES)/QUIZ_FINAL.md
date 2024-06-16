@@ -249,70 +249,95 @@
     - D. /support
 
 40. Quelle ligne de code correcte devez-vous utiliser pour définir une route GET pour `/predict` qui retourne une prédiction de modèle dans une application FastAPI ? (2 Points)
-    - A. ```from fastapi import FastAPI
+    - A. ```python
+            from fastapi import FastAPI
             app = FastAPI()
             @app.post("/predict")
             async def predict():
-                return {"prediction": "value"}```
-    - B. ```from fastapi import FastAPI
+                return {"prediction": "value"}
+      ```
+    - B. ```python
+            from fastapi import FastAPI
             app = FastAPI()
             @app.put("/predict")
             async def predict():
-                return {"prediction": "value"}```
-    - C. ```from fastapi import FastAPI
+                return {"prediction": "value"}
+      ```
+    - C. ```python
+            from fastapi import FastAPI
             app = FastAPI()
             @app.delete("/predict")
             async def predict():
-                return {"prediction": "value"}```
-    - D. ```from fastapi import FastAPI
+                return {"prediction": "value"}
+      ```
+    - D. ```python
+            from fastapi import FastAPI
             app = FastAPI()
             @app.get("/predict")
             async def predict():
-                return {"prediction": "value"}```
+                return {"prediction": "value"}
+      ```
 
 41. Quelle ligne de code correcte devez-vous utiliser pour définir une route GET pour `/predict` qui retourne une prédiction de modèle dans une application FastAPI ? (2 Points)
-    - A. ```from fastapi import FastAPI
+    - A. ```python
+            from fastapi import FastAPI
             app = FastAPI()
             @app.post("/predict")
             async def predict():
-                return {"prediction": "value"}```
-    - B. ```from fastapi import FastAPI
+                return {"prediction": "value"}
+      ```
+    - B. ```python
+            from fastapi import FastAPI
             app = FastAPI()
             @app.put("/predict")
             async def predict():
-                return {"prediction": "value"}```
-    - C. ```from fastapi import FastAPI
+                return {"prediction": "value"}
+      ```
+    - C. ```python
+            from fastapi import FastAPI
             app = FastAPI()
             @app.delete("/predict")
             async def predict():
-                return {"prediction": "value"}```
-    - D. ```from fastapi import FastAPI
+                return {"prediction": "value"}
+      ```
+    - D. ```python
+            from fastapi import FastAPI
             app = FastAPI()
             @app.get("/predict")
             async def predict():
-                return {"prediction": "value"}```
+                return {"prediction": "value"}
+      ```
 
 42. Quelle ligne de code correcte devez-vous utiliser pour définir une route GET pour `/predict` qui retourne une prédiction de modèle dans une application FastAPI ? (2 Points)
-    - A. ```from fastapi import FastAPI
+    - A.
+    ```python
+            from fastapi import FastAPI
             app = FastAPI()
             @app.post("/predict")
             async def predict():
-                return {"prediction": "value"}```
-    - B. ```from fastapi import FastAPI
+                return {"prediction": "value"}
+    ```
+    - B. ```python
+            from fastapi import FastAPI
             app = FastAPI()
             @app.put("/predict")
             async def predict():
-                return {"prediction": "value"}```
-    - C. ```from fastapi import FastAPI
+                return {"prediction": "value"}
+      ```
+    - C. ```python
+            from fastapi import FastAPI
             app = FastAPI()
             @app.delete("/predict")
             async def predict():
-                return {"prediction": "value"}```
-    - D. ```from fastapi import FastAPI
+                return {"prediction": "value"}
+      ```
+    - D. ```python
+            from fastapi import FastAPI
             app = FastAPI()
             @app.get("/predict")
             async def predict():
-                return {"prediction": "value"}```
+                return {"prediction": "value"}
+      ```
 
 43. Quelle bibliothèque devez-vous importer pour gérer les requêtes de modèles dans FastAPI ? (2 Points)
     - A. import requests
